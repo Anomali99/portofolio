@@ -18,6 +18,35 @@
       ],
       "tech": ["VueJS", "Javascript", "Tailwind CSS"],
       "slug": "weton-web"
+    },
+    {
+      "title": "Weton App",
+      "desc": [
+        "Weton App adalah sebuah aplikasi mobile yang saya kembangkan menggunakan bahasa Java dan Android Studio. Aplikasi ini dirancang dengan antarmuka yang sederhana untuk memberikan pengalaman pengguna yang nyaman dan mudah.",
+        "Tujuan dari Weton App adalah untuk menghitung sio atau weton seseorang berdasarkan perhitungan Jawa. Dengan aplikasi ini, pengguna dapat memperoleh informasi mengenai karakteristik dari hari lahir mereka sesuai dengan tradisi Jawa."
+      ],
+      "year": "2024",
+      "preview": "https://github.com/Anomali99/Weton/releases/tag/release",
+      "code": "https://github.com/Anomali99/weton",
+      "images": ["/projects/weton-app/weton-app.jpg"],
+      "tech": ["Java", "Android Studio"],
+      "slug": "weton-app"
+    },
+    {
+      "title": "Film Center",
+      "desc": [
+        "Film Center adalah aplikasi web yang saya kembangkan menggunakan Vue.js, JavaScript, dan Tailwind CSS untuk memberikan pengalaman menonton film yang mirip layanan streaming. Aplikasi ini mempermudah pencarian film, dan pengguna tidak perlu mengubah kode saat menambahkan film baru cukup memperbarui file index.json.",
+        "Aplikasi ini fleksibel untuk dikombinasikan dengan server web seperti Nginx atau Apache dan dirancang agar dapat dijalankan dari hard disk eksternal. Pengguna cukup menyambungkan hard disk ke komputer mana pun, menjalankan Nginx, dan aplikasi akan langsung siap digunakan."
+      ],
+      "year": "2024",
+      "code": "https://github.com/Anomali99/film-center",
+      "images": [
+        "/projects/film-center/film-center1.png",
+        "/projects/film-center/film-center2.png",
+        "/projects/film-center/film-center3.png"
+      ],
+      "tech": ["VueJS", "Javascript", "Tailwind CSS"],
+      "slug": "film-center"
     }
   ]
 }
