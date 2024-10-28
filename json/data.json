@@ -16,7 +16,7 @@
         "/projects/weton-web/weton3.png",
         "/projects/weton-web/weton4.png"
       ],
-      "tech": ["VueJS", "Javascript", "Tailwind CSS"],
+      "tech": ["Vue JS", "Vite", "Javascript", "Tailwind CSS"],
       "slug": "weton-web"
     },
     {
@@ -45,8 +45,83 @@
         "/projects/film-center/film-center2.png",
         "/projects/film-center/film-center3.png"
       ],
-      "tech": ["VueJS", "Javascript", "Tailwind CSS"],
+      "tech": ["Vue JS", "Vite", "Javascript", "Tailwind CSS"],
       "slug": "film-center"
+    },
+    {
+      "title": "Pischat Web",
+      "desc": [
+        "Pischat Web adalah sebuah aplikasi berbasis web yang saya kembangkan menggunakan bahasa React JS dan Tailwind CSS. Aplikasi ini dirancang dengan antarmuka yang sederhana namun belum responsif.",
+        "Tujuan dari aplikasi adalah untuk melakukan chat realtime sederhana. Aplikasi ini menggunakan websocket untuk komunikasi realtaime dengan server."
+      ],
+      "year": "2024",
+      "preview": "https://chat.anomali99.my.id",
+      "code": "https://github.com/Anomali99/pischat-web-react-js",
+      "images": [
+        "/projects/pischat-web/pischat-web.png",
+        "/projects/pischat-web/pischat-web1.png",
+        "/projects/pischat-web/pischat-web2.png",
+        "/projects/pischat-web/pischat-web3.png"
+      ],
+      "tech": [
+        "React JS",
+        "Vite",
+        "Javascript",
+        "Tailwind CSS",
+        "Axios",
+        "Socket.IO"
+      ],
+      "slug": "pischat-web"
+    },
+    {
+      "title": "Pischat Server",
+      "desc": [
+        "Pischat Server adalah sebuah server berbasis Javascript yang saya kembangkan menggunakan Express JS. Server ini menggunakan MariaDB sebagai database dan Sequelize sebagai ORM-nya.",
+        "Tujuan dari Server adalah untuk menyediakan koneksi realtime antar perangkat. Server menyediakan Rest API untuk authentication dan Websocket untuk komunikasi chat realtime."
+      ],
+      "year": "2024",
+      "code": "https://github.com/Anomali99/weton",
+      "images": ["/projects/pischat-server/pischat-server.png"],
+      "tech": ["Express JS", "Javascript", "Sequelize", "MariaDB", "Socket.IO"],
+      "slug": "pischat-server"
+    },
+    {
+      "title": "e-Payment Pondok Assyafiiyah",
+      "desc": [
+        "e-Payment Pondok Assyafiiyah adalah sebuah aplikasi web yang saya kembangkan React JS untuk forntenya dan flask untuk backennya.",
+        "Tujuan dari aplikasi adalah untuk mempermudah proses pencatat pembayaran spp dan kos makan santri.",
+        "Dilengkapi dengan fitur cetak pembayaran, ketika membutuhkan data dalam bentuk cetak.",
+        "Testing, pergi ke /login dan masukan Username: admin dan Password: 1234"
+      ],
+      "year": "2024",
+      "preview": "https://ppa.anomali99.my.id",
+      "code": "https://github.com/Anomali99/e-PPA",
+      "images": [
+        "/projects/e-ppa/e-ppa.png",
+        "/projects/e-ppa/e-ppa1.png",
+        "/projects/e-ppa/e-ppa2.png",
+        "/projects/e-ppa/e-ppa3.png",
+        "/projects/e-ppa/e-ppa4.png",
+        "/projects/e-ppa/e-ppa5.png",
+        "/projects/e-ppa/e-ppa6.png",
+        "/projects/e-ppa/e-ppa7.png",
+        "/projects/e-ppa/e-ppa8.png",
+        "/projects/e-ppa/e-ppa9.png",
+        "/projects/e-ppa/e-ppa10.png",
+        "/projects/e-ppa/e-ppa11.png"
+      ],
+      "tech": [
+        "React JS",
+        "Vite",
+        "Typescript",
+        "Tailwind CSS",
+        "Axios",
+        "Flask",
+        "Python",
+        "SQLAlchemy",
+        "MariaDB"
+      ],
+      "slug": "e-ppa"
     }
   ]
 }
