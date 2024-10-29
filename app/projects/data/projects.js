@@ -3,6 +3,7 @@ import WetonApp from "@/public/projects/weton-app/weton-app.jpg";
 import FilmCenter from "@/public/projects/film-center/film-center1.png";
 import PPA from "@/public/projects/e-ppa/e-ppa.png";
 import PischatWeb from "@/public/projects/pischat-web/pischat-web.png";
+import PischatApp from "@/public/projects/pischat-app/pischat-app.jpg"
 import PischatServer from "@/public/projects/pischat-server/pischat-server.png";
 
 export const projects = [
@@ -45,6 +46,14 @@ export const projects = [
     tech: "React JS, Vite, Javascript, Tailwind CSS, Axios, Socket.IO",
     bg: PischatWeb,
     slug: "pischat-web",
+  },
+  {
+    title: "Pischat App",
+    desc: "Pischat App adalah versi mobile dari Pischat Web.",
+    year: "2024",
+    tech: "React Native, Typescript, Axios, Socket.IO",
+    bg: PischatApp,
+    slug: "pischat-app",
   },
   {
     title: "Pischat Server",

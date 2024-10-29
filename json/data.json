@@ -51,7 +51,7 @@
     {
       "title": "Pischat Web",
       "desc": [
-        "Pischat Web adalah sebuah aplikasi berbasis web yang saya kembangkan menggunakan bahasa React JS dan Tailwind CSS. Aplikasi ini dirancang dengan antarmuka yang sederhana namun belum responsif.",
+        "Pischat Web adalah sebuah aplikasi berbasis web yang saya kembangkan menggunakan React JS dan Tailwind CSS. Aplikasi ini dirancang dengan antarmuka yang sederhana namun belum responsif.",
         "Tujuan dari aplikasi adalah untuk melakukan chat realtime sederhana. Aplikasi ini menggunakan websocket untuk komunikasi realtaime dengan server."
       ],
       "year": "2024",
@@ -74,6 +74,19 @@
       "slug": "pischat-web"
     },
     {
+      "title": "Pischat App",
+      "desc": [
+        "Pischat App adalah sebuah aplikasi mobile yang saya kembangkan menggunakan React Native dan Typescript. Aplikasi ini dirancang dengan antarmuka yang sederhana dan mudah dipahami pengguna.",
+        "Tujuan dari aplikasi adalah untuk melakukan chat realtime sederhana. Aplikasi ini menggunakan websocket untuk komunikasi realtaime dengan server."
+      ],
+      "year": "2024",
+      "preview": "https://github.com/Anomali99/pischat-mobile-react-native/releases/tag/releases",
+      "code": "https://github.com/Anomali99/pischat-mobile-react-native",
+      "images": ["/projects/pischat-app/pischat-app.jpg"],
+      "tech": ["React Native", "Typescript", "Axios", "Socket.IO"],
+      "slug": "pischat-app"
+    },
+    {
       "title": "Pischat Server",
       "desc": [
         "Pischat Server adalah sebuah server berbasis Javascript yang saya kembangkan menggunakan Express JS. Server ini menggunakan MariaDB sebagai database dan Sequelize sebagai ORM-nya.",
@@ -88,7 +101,7 @@
     {
       "title": "e-Payment Pondok Assyafiiyah",
       "desc": [
-        "e-Payment Pondok Assyafiiyah adalah sebuah aplikasi web yang saya kembangkan React JS untuk forntenya dan flask untuk backennya.",
+        "e-Payment Pondok Assyafiiyah adalah sebuah aplikasi web yang saya kembangkan menggunakan React JS untuk forntenya dan flask untuk backennya.",
         "Tujuan dari aplikasi adalah untuk mempermudah proses pencatat pembayaran spp dan kos makan santri.",
         "Dilengkapi dengan fitur cetak pembayaran, ketika membutuhkan data dalam bentuk cetak.",
         "Testing, pergi ke /login dan masukan Username: admin dan Password: 1234"
