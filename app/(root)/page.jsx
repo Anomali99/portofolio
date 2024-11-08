@@ -9,7 +9,7 @@ import Link from "next/link";
 import Button from "@/components/Button";
 import profile from "@/public/img/profile.jpeg";
 import profile1 from "@/public/img/profile1.jpeg";
-import Setup from "@/public/img/setup.jpg";
+import Setup from "@/public/img/setup.jpeg";
 import ProjectAll from "@/public/img/project-img.jpg";
 import Hr from "@/components/Hr";
 // icons
@@ -17,6 +17,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faInstagram } from "@fortawesome/free-brands-svg-icons";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faLinkedin } from "@fortawesome/free-brands-svg-icons";
+import { faFacebook } from "@fortawesome/free-brands-svg-icons";
 
 const MyPage = () => {
   const fullpageOptions = {
@@ -103,15 +105,14 @@ const MyPage = () => {
                     }}
                   >
                     <Button variation="primary">
-                      <Link
-                        href={"#"}
+                      <a
+                        href="/docs/CV_NUR_FATIQ.pdf"
                         target="_blank"
                         rel="noopener noreferrer"
-                        locale={false}
                         download
                       >
                         Download CV
-                      </Link>
+                      </a>
                     </Button>
                     <Button variation="secondary">
                       <a href="#contact">Contact Me</a>
@@ -382,6 +383,34 @@ const MyPage = () => {
                         icon={faInstagram}
                         className="text-3xl"
                       />
+                    </motion.a>
+                    <motion.a
+                      href="https://www.facebook.com/profile.php?id=100007317105187"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      initial={{ opacity: 0, y: 40 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{
+                        y: { delay: 0.3 },
+                        opacity: { delay: 0.4 },
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faFacebook} className="text-3xl" />
+                    </motion.a>
+                    <motion.a
+                      href="https://www.linkedin.com/in/nur-fatiq-b26452315/"
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex justify-center items-center bg-gray-700 w-14 h-14 rounded-full text-gray-100 hover:bg-gray-400 transition-all ease-in-out duration-300"
+                      initial={{ opacity: 0, y: 40 }}
+                      whileInView={{ opacity: 1, y: 0 }}
+                      transition={{
+                        y: { delay: 0.3 },
+                        opacity: { delay: 0.4 },
+                      }}
+                    >
+                      <FontAwesomeIcon icon={faLinkedin} className="text-3xl" />
                     </motion.a>
                   </div>
                 </div>
