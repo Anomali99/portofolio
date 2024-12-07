@@ -13,11 +13,23 @@ export default function Tools() {
         </span>{" "}
         |{" "}
         <span translate="no" className="text-black font-bold">
-          NetBeans
+          NetBeans IDE
         </span>{" "}
         |{" "}
         <span translate="no" className="text-black font-medium">
           Andriod Studio
+        </span>{" "}
+        |{" "}
+        <span translate="no" className="text-black font-medium">
+          Arduino IDE
+        </span>{" "}
+        |{" "}
+        <span translate="no" className="text-black font-medium">
+          Laragon
+        </span>{" "}
+        |{" "}
+        <span translate="no" className="text-black font-medium">
+          XAMPP
         </span>{" "}
         |{" "}
         <span translate="no" className="text-black font-medium">
@@ -34,6 +46,10 @@ export default function Tools() {
         |{" "}
         <span translate="no" className="text-black font-medium">
           Figma
+        </span>{" "}
+        |{" "}
+        <span translate="no" className="text-black font-medium">
+          Canva
         </span>{" "}
         |{" "}
       </p>

@@ -50,10 +50,12 @@ export default function Stack() {
         |{" "}
         <span translate="no" className="text-black font-bold">
           Python
-        </span>
+        </span>{" "}
+        |{" "}
         <span translate="no" className="text-black font-bold">
           Java
-        </span>
+        </span>{" "}
+        |{" "}
       </p>
     </>
   );
