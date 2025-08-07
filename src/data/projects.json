@@ -1,0 +1,397 @@
+[
+  {
+    "title": "Zen Garden",
+    "slug": "zen-garden",
+    "description": [],
+    "year": "2025",
+    "thumbnail": "/images/projects/zen-garden/thumbnail.jpg",
+    "github_url": "https://github.com/Zen-Garden-SAD",
+    "framework": ["React", "Flask", "Kotlin Android", "Arduino Core"],
+    "type": ["Frontend", "Backend", "Android", "Arduino"],
+    "category": "Coursework",
+    "author": [
+      "Nur Fatiq (saya)",
+      "Agustina Latifatul Mutmainnah",
+      "Egty aulia Ramadhant"
+    ],
+    "sub_project": [
+      {
+        "title": "Backend",
+        "description": [],
+        "github_url": "https://github.com/Zen-Garden-SAD/Backend",
+        "framework": "Flask"
+      },
+      {
+        "title": "Frontend",
+        "description": [],
+        "github_url": "https://github.com/Zen-Garden-SAD/Frontend",
+        "demo_url": "https://zengarden.anomali99.my.id",
+        "framework": "React",
+        "preview": [
+          "/images/projects/zen-garden/zen-garden-frontend1.png",
+          "/images/projects/zen-garden/zen-garden-frontend2.png",
+          "/images/projects/zen-garden/zen-garden-frontend3.png",
+          "/images/projects/zen-garden/zen-garden-frontend4.png",
+          "/images/projects/zen-garden/zen-garden-frontend5.png",
+          "/images/projects/zen-garden/zen-garden-frontend6.png",
+          "/images/projects/zen-garden/zen-garden-frontend7.png",
+          "/images/projects/zen-garden/zen-garden-frontend8.png",
+          "/images/projects/zen-garden/zen-garden-frontend9.png",
+          "/images/projects/zen-garden/zen-garden-frontend10.png",
+          "/images/projects/zen-garden/zen-garden-frontend11.png",
+          "/images/projects/zen-garden/zen-garden-frontend12.png",
+          "/images/projects/zen-garden/zen-garden-frontend13.png",
+          "/images/projects/zen-garden/zen-garden-frontend14.png",
+          "/images/projects/zen-garden/zen-garden-frontend15.png",
+          "/images/projects/zen-garden/zen-garden-frontend16.png",
+          "/images/projects/zen-garden/zen-garden-frontend17.png",
+          "/images/projects/zen-garden/zen-garden-frontend18.png",
+          "/images/projects/zen-garden/zen-garden-frontend19.png",
+          "/images/projects/zen-garden/zen-garden-frontend20.png",
+          "/images/projects/zen-garden/zen-garden-frontend21.png",
+          "/images/projects/zen-garden/zen-garden-frontend22.png",
+          "/images/projects/zen-garden/zen-garden-frontend23.png",
+          "/images/projects/zen-garden/zen-garden-frontend24.png",
+          "/images/projects/zen-garden/zen-garden-frontend25.png",
+          "/images/projects/zen-garden/zen-garden-frontend26.png",
+          "/images/projects/zen-garden/zen-garden-frontend27.png",
+          "/images/projects/zen-garden/zen-garden-frontend28.png",
+          "/images/projects/zen-garden/zen-garden-frontend29.png",
+          "/images/projects/zen-garden/zen-garden-frontend30.png"
+        ]
+      },
+      {
+        "title": "Android",
+        "description": [],
+        "github_url": "https://github.com/Zen-Garden-SAD/Mobile",
+        "demo_url": "https://github.com/Zen-Garden-SAD/Mobile/releases/tag/v1.0.0",
+        "framework": "Kotlin Android",
+        "preview": [
+          "/images/projects/zen-garden/zen-garden-android1.jpg",
+          "/images/projects/zen-garden/zen-garden-android2.jpg"
+        ]
+      },
+      {
+        "title": "Arduino",
+        "description": [],
+        "github_url": "https://github.com/Zen-Garden-SAD/IoT",
+        "framework": "Arduino Core",
+        "preview": [
+          "/images/projects/zen-garden/zen-garden-arduino1.jpg",
+          "/images/projects/zen-garden/zen-garden-arduino2.jpg",
+          "/images/projects/zen-garden/zen-garden-arduino3.jpg",
+          "/images/projects/zen-garden/zen-garden-arduino4.jpg",
+          "/images/projects/zen-garden/zen-garden-arduino5.jpg"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Trophy Vision",
+    "slug": "trophy-vision",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/trophy-vision/thumbnail.jpg",
+    "github_url": "https://github.com/Anomali99/TrophyVision",
+    "demo_url": "https://github.com/Anomali99/TrophyVision/releases/tag/v1.1",
+    "framework": ["Kotlin Android"],
+    "type": ["Android"],
+    "category": "Coursework",
+    "author": [
+      "Nur Fatiq (saya)",
+      "Afreza Restu F",
+      "Muhammad Rifqi Naufal Irsyad",
+      "Novan Putra Pratama",
+      "Fauziah Afrisa N",
+      "Irkhamnawan Dikmanta Putra"
+    ],
+    "preview": ["/images/projects/trophy-vision/trophy-vision.jpg"]
+  },
+  {
+    "title": "Weton",
+    "slug": "weton",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/weton/thumbnail.png",
+    "framework": ["Vue.js", "Java Android"],
+    "type": ["Frontend", "Android"],
+    "category": "Hobby",
+    "author": ["Nur Fatiq (saya)"],
+    "sub_project": [
+      {
+        "title": "Android",
+        "description": [],
+        "github_url": "https://github.com/Anomali99/Weton",
+        "demo_url": "https://github.com/Anomali99/Weton/releases/tag/release",
+        "framework": "Java Android",
+        "preview": ["/images/projects/weton/weton-android.jpg"]
+      },
+      {
+        "title": "Frontend",
+        "description": [],
+        "github_url": "https://github.com/Anomali99/weton-web",
+        "demo_url": "https://weton-next.web.app",
+        "framework": "Vue.js",
+        "preview": [
+          "/images/projects/weton/weton-frontend1.png",
+          "/images/projects/weton/weton-frontend2.png",
+          "/images/projects/weton/weton-frontend3.png",
+          "/images/projects/weton/weton-frontend4.png",
+          "/images/projects/weton/weton-frontend5.png"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Flix Box",
+    "slug": "flix-box",
+    "description": [],
+    "year": "2025",
+    "thumbnail": "/images/projects/flix-box/thumbnail.png",
+    "github_url": "https://github.com/Anomali99/FlixBox",
+    "framework": ["React"],
+    "type": ["Frontend"],
+    "category": "Hobby",
+    "author": ["Nur Fatiq (saya)"],
+    "preview": [
+      "/images/projects/flix-box/flix-box1.png",
+      "/images/projects/flix-box/flix-box2.png",
+      "/images/projects/flix-box/flix-box3.png",
+      "/images/projects/flix-box/flix-box4.png",
+      "/images/projects/flix-box/flix-box5.png"
+    ]
+  },
+  {
+    "title": "Mapping Telemung",
+    "slug": "mapping-telemung",
+    "description": [],
+    "year": "2025",
+    "thumbnail": "/images/projects/mapping-telemung/thumbnail.png",
+    "github_url": "https://github.com/Anomali99/mapping-telemung",
+    "demo_url": "https://mapping.anomali99.my.id",
+    "framework": ["React"],
+    "type": ["Frontend"],
+    "category": "Hobby",
+    "author": ["Nur Fatiq (saya)"],
+    "preview": [
+      "/images/projects/mapping-telemung/mapping-telemung1.png",
+      "/images/projects/mapping-telemung/mapping-telemung2.png",
+      "/images/projects/mapping-telemung/mapping-telemung3.png",
+      "/images/projects/mapping-telemung/mapping-telemung4.png",
+      "/images/projects/mapping-telemung/mapping-telemung5.png"
+    ]
+  },
+  {
+    "title": "Simple Game",
+    "slug": "simple-game",
+    "description": [],
+    "year": "2025",
+    "thumbnail": "/images/projects/simple-game/thumbnail.jpg",
+    "github_url": "https://github.com/Anomali99/simple_game",
+    "framework": ["Flutter"],
+    "type": ["Android"],
+    "category": "Hobby",
+    "author": ["Nur Fatiq (saya)"],
+    "preview": ["/images/projects/simple-game/simple-game.jpg"]
+  },
+  {
+    "title": "Film Center",
+    "slug": "film-center",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/film-center/thumbnail.png",
+    "github_url": "https://github.com/Anomali99/film-center",
+    "framework": ["Vue.js"],
+    "type": ["Frontend"],
+    "category": "Hobby",
+    "author": ["Nur Fatiq (saya)"],
+    "preview": [
+      "/images/projects/film-center/film-center1.png",
+      "/images/projects/film-center/film-center2.png",
+      "/images/projects/film-center/film-center3.png"
+    ]
+  },
+  {
+    "title": "Pischat",
+    "slug": "pischat",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/pischat/thumbnail.jpg",
+    "framework": ["React", "Express.js", "React Native"],
+    "type": ["Frontend", "Backend", "Android"],
+    "category": "Hobby",
+    "author": ["Nur Fatiq (saya)"],
+    "sub_project": [
+      {
+        "title": "Backend",
+        "description": [],
+        "github_url": "https://github.com/Anomali99/pischat-server-express-js",
+        "framework": "Express.js"
+      },
+      {
+        "title": "Frontend",
+        "description": [],
+        "github_url": "https://github.com/Anomali99/pischat-web-react-js",
+        "framework": "React",
+        "preview": [
+          "/images/projects/pischat/pischat-frontend1.png",
+          "/images/projects/pischat/pischat-frontend2.png",
+          "/images/projects/pischat/pischat-frontend3.png",
+          "/images/projects/pischat/pischat-frontend4.png"
+        ]
+      },
+      {
+        "title": "Android",
+        "description": [],
+        "github_url": "https://github.com/Anomali99/pischat-mobile-react-native",
+        "framework": "React Native",
+        "preview": ["/images/projects/pischat/pischat-android.jpg"]
+      }
+    ]
+  },
+  {
+    "title": "Chat App",
+    "slug": "chat-app",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/chat-app/thumbnail.jpg",
+    "github_url": "https://github.com/Anomali99/Chat-App-Express",
+    "framework": ["Express.js"],
+    "type": ["Frontend", "Backend"],
+    "category": "Hobby",
+    "author": ["Nur Fatiq (saya)"],
+    "preview": ["/images/projects/chat-app/chat-app.jpg"]
+  },
+  {
+    "title": "e-Payment Pondok Assyafiiyah",
+    "slug": "e-ppa",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/e-ppa/thumbnail.png",
+    "github_url": "https://github.com/Anomali99/e-PPA",
+    "framework": ["React", "Flask"],
+    "type": ["Frontend", "Backend"],
+    "category": "Hobby",
+    "author": ["Nur Fatiq (saya)"],
+    "preview": [
+      "/images/projects/e-ppa/e-ppa1.png",
+      "/images/projects/e-ppa/e-ppa2.png",
+      "/images/projects/e-ppa/e-ppa3.png",
+      "/images/projects/e-ppa/e-ppa4.png",
+      "/images/projects/e-ppa/e-ppa5.png",
+      "/images/projects/e-ppa/e-ppa6.png",
+      "/images/projects/e-ppa/e-ppa7.png",
+      "/images/projects/e-ppa/e-ppa8.png",
+      "/images/projects/e-ppa/e-ppa9.png",
+      "/images/projects/e-ppa/e-ppa10.png",
+      "/images/projects/e-ppa/e-ppa11.png",
+      "/images/projects/e-ppa/e-ppa12.png"
+    ]
+  },
+  {
+    "title": "Living Home",
+    "slug": "living-home",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/living-home/thumbnail.png",
+    "github_url": "https://github.com/Anomali99/livinghome-django",
+    "framework": ["Django"],
+    "type": ["Frontend", "Backend"],
+    "category": "Coursework",
+    "author": [
+      "Nur Fatiq (saya)",
+      "Muhammad Saiful Arifin",
+      "M Ravly Dwi Septian",
+      "Mochammad Nasruddin Zuhri",
+      "M Ulil Azmi"
+    ],
+    "preview": [
+      "/images/projects/living-home/living-home1.png",
+      "/images/projects/living-home/living-home2.png",
+      "/images/projects/living-home/living-home3.png",
+      "/images/projects/living-home/living-home4.png",
+      "/images/projects/living-home/living-home5.png",
+      "/images/projects/living-home/living-home6.png"
+    ]
+  },
+  {
+    "title": "Libra Linx",
+    "slug": "libra-linx",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/libra-linx/thumbnail.png",
+    "github_url": "https://github.com/Anomali99/LibraLinx-Tugas-PBO",
+    "framework": ["Java Swing"],
+    "type": ["Desktop"],
+    "category": "Coursework",
+    "author": ["Nur Fatiq (saya)"],
+    "preview": [
+      "/images/projects/libra-linx/libra-linx1.png",
+      "/images/projects/libra-linx/libra-linx2.png",
+      "/images/projects/libra-linx/libra-linx3.png",
+      "/images/projects/libra-linx/libra-linx4.png",
+      "/images/projects/libra-linx/libra-linx5.png",
+      "/images/projects/libra-linx/libra-linx6.png",
+      "/images/projects/libra-linx/libra-linx7.png",
+      "/images/projects/libra-linx/libra-linx8.png",
+      "/images/projects/libra-linx/libra-linx9.png",
+      "/images/projects/libra-linx/libra-linx10.png",
+      "/images/projects/libra-linx/libra-linx11.png",
+      "/images/projects/libra-linx/libra-linx12.png",
+      "/images/projects/libra-linx/libra-linx13.png",
+      "/images/projects/libra-linx/libra-linx14.png",
+      "/images/projects/libra-linx/libra-linx15.png"
+    ]
+  },
+  {
+    "title": "Cafe2K",
+    "slug": "cafe2k",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/cafe2k/thumbnail.png",
+    "github_url": "https://github.com/Anomali99/Cafe2K-Persistent-Version",
+    "framework": ["Java Swing"],
+    "type": ["Desktop"],
+    "category": "Coursework",
+    "author": ["Nur Fatiq (saya)", "Ulil Azmi Al Huraibi", "Muhammad Al Fatih"],
+    "preview": [
+      "/images/projects/cafe2k/cafe2k1.png",
+      "/images/projects/cafe2k/cafe2k2.png",
+      "/images/projects/cafe2k/cafe2k3.png",
+      "/images/projects/cafe2k/cafe2k4.png",
+      "/images/projects/cafe2k/cafe2k5.png",
+      "/images/projects/cafe2k/cafe2k6.png",
+      "/images/projects/cafe2k/cafe2k7.png",
+      "/images/projects/cafe2k/cafe2k8.png",
+      "/images/projects/cafe2k/cafe2k9.png",
+      "/images/projects/cafe2k/cafe2k10.png",
+      "/images/projects/cafe2k/cafe2k11.png",
+      "/images/projects/cafe2k/cafe2k12.png"
+    ]
+  },
+  {
+    "title": "Sumber Makmur",
+    "slug": "sumber-makmur",
+    "description": [],
+    "year": "2024",
+    "thumbnail": "/images/projects/sumber-makmur/thumbnail.png",
+    "github_url": "https://github.com/Anomali99/SumberMakmur",
+    "framework": ["Java Swing"],
+    "type": ["Desktop"],
+    "category": "Coursework",
+    "author": [
+      "Nur Fatiq (saya)",
+      "Fahmi Surya Hidayat",
+      "Ahmad Caesar Oktavio"
+    ],
+    "preview": [
+      "/images/projects/sumber-makmur/sumber-makmur1.png",
+      "/images/projects/sumber-makmur/sumber-makmur2.png",
+      "/images/projects/sumber-makmur/sumber-makmur3.png",
+      "/images/projects/sumber-makmur/sumber-makmur4.png",
+      "/images/projects/sumber-makmur/sumber-makmur5.png",
+      "/images/projects/sumber-makmur/sumber-makmur6.png",
+      "/images/projects/sumber-makmur/sumber-makmur7.png"
+    ]
+  }
+]
