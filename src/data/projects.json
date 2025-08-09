@@ -2,13 +2,17 @@
   {
     "title": "Zen Garden",
     "slug": "zen-garden",
-    "description": [],
+    "description": [
+      "Zen Garden adalah sebuah platform terintegrasi yang dirancang untuk pemantauan real-time dan manajemen cerdas lingkungan kebun rumah kaca maupun urban gardening. Sistem ini memberdayakan para pegiat berkebun dengan menyediakan dasbor pemantauan data tanaman secara langsung, yang terhubung dengan perangkat IoT berbasis ESP32. Dengan demikian, pengguna dapat memperoleh wawasan mendalam dan kontrol penuh terhadap kondisi tanaman mereka, seperti suhu, kelembapan, dan intensitas cahaya, secara akurat dan dari mana saja.",
+      "Untuk menyajikan data secara dinamis, Zen Garden memanfaatkan teknologi WebSocket yang memungkinkan pembaruan sensor langsung ke dasbor tanpa jeda. Platform ini juga dilengkapi fitur-fitur pendukung seperti notifikasi push melalui Firebase untuk peringatan penting, serta sistem jadwal penanaman dan pelacakan tugas untuk membantu pengguna mengelola aktivitas berkebun secara terstruktur. Dengan antarmuka berbasis React yang responsif dan ramah pengguna, Zen Garden memastikan pengalaman pengguna yang optimal di berbagai perangkat, baik desktop maupun ponsel."
+    ],
     "year": "2025",
     "thumbnail": "/images/projects/zen-garden/thumbnail.jpg",
     "github_url": "https://github.com/Zen-Garden-SAD",
     "framework": ["React", "Flask", "Kotlin Android", "Arduino Core"],
     "type": ["Frontend", "Backend", "Android", "Arduino"],
     "category": "Coursework",
+    "hight_light": true,
     "author": [
       "Nur Fatiq (saya)",
       "Agustina Latifatul Mutmainnah",
@@ -17,13 +21,17 @@
     "sub_project": [
       {
         "title": "Backend",
-        "description": [],
+        "description": [
+          "Layanan ini berfungsi sebagai jembatan antara perangkat IoT  dan aplikasi web maupun android. Fungsinya mencakup penerimaan data real-time, logika pemantauan tanaman, dan menyediakan endpoint API yang digunakan oleh aplikasi web dan android."
+        ],
         "github_url": "https://github.com/Zen-Garden-SAD/Backend",
         "framework": "Flask"
       },
       {
         "title": "Frontend",
-        "description": [],
+        "description": [
+          "Aplikasi web ini menyediakan platform pemantauan kondisi tanaman secara real-time yang dapat diakses oleh semua pengguna terdaftar melalui dasbor interaktif. Selain itu, peran Admin diberikan kewenangan penuh untuk mengelola seluruh sistem, mulai dari memverifikasi dan mengelola akun pengguna, menambahkan serta mengonfigurasi perangkat kebun, hingga membuat tugas perawatan tanaman."
+        ],
         "github_url": "https://github.com/Zen-Garden-SAD/Frontend",
         "demo_url": "https://zengarden.anomali99.my.id",
         "framework": "React",
@@ -62,7 +70,9 @@
       },
       {
         "title": "Android",
-        "description": [],
+        "description": [
+          "Aplikasi Android ini menyediakan platform bagi pengguna terdaftar untuk memantau kondisi tanaman secara real-time melalui dasbor yang interaktif. Fitur utamanya difokuskan pada fungsionalitas esensial, yaitu memantau data sensor, melihat dan memperbarui status tugas pribadi, serta menerima notifikasi penting."
+        ],
         "github_url": "https://github.com/Zen-Garden-SAD/Mobile",
         "demo_url": "https://github.com/Zen-Garden-SAD/Mobile/releases/tag/v1.0.0",
         "framework": "Kotlin Android",
@@ -73,7 +83,9 @@
       },
       {
         "title": "Arduino",
-        "description": [],
+        "description": [
+          "Firmware yang dirancang untuk perangkat IoT berbasis ESP32 dan digunakan dalam sistem pertanian pintar Zen Garden. Kode ini bertugas untuk mengumpulkan data dari berbagai sensor (suhu, intensitas cahaya, kelembapan tanah dan udara) lalu mengirimkannya ke server backend melalui protokol WebSocket."
+        ],
         "github_url": "https://github.com/Zen-Garden-SAD/IoT",
         "framework": "Arduino Core",
         "preview": [
@@ -89,7 +101,10 @@
   {
     "title": "Trophy Vision",
     "slug": "trophy-vision",
-    "description": [],
+    "description": [
+      "Aplikasi Android ini dikembangkan untuk mendeteksi dan mengidentifikasi objek piala secara real-time menggunakan kamera ponsel. Proyek ini merupakan sebuah eksplorasi dalam penerapan computer vision, di mana kecerdasan buatan (AI) diintegrasikan untuk mengenali sebuah objek spesifik dari input visual secara langsung dan akurat.",
+      "Secara teknis, aplikasi ini mengombinasikan dua model deep learning dalam arsitektur dua tahap (two-stage). Model YOLOv8 bertugas untuk menemukan dan melokalisasi posisi piala dalam gambar (deteksi objek). Setelah terdeteksi, objek tersebut kemudian dianalisis lebih lanjut oleh model ResNet18 untuk proses klasifikasi dan identifikasi akhir."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/trophy-vision/thumbnail.jpg",
     "github_url": "https://github.com/Anomali99/TrophyVision",
@@ -97,6 +112,7 @@
     "framework": ["Kotlin Android"],
     "type": ["Android"],
     "category": "Coursework",
+    "hight_light": true,
     "author": [
       "Nur Fatiq (saya)",
       "Afreza Restu F",
@@ -110,17 +126,23 @@
   {
     "title": "Weton",
     "slug": "weton",
-    "description": [],
+    "description": [
+      "Weton adalah aplikasi hobi yang saya kembangkan untuk mengangkat tradisi perhitungan Jawa ke dalam platform digital yang modern dan mudah diakses. Aplikasi ini memiliki beberapa fitur utama, seperti kalkulator untuk menghitung sio (Keong, Kuda, Monyet, Harimau), analisis kecocokan pasangan berdasarkan weton, hingga kalender sepanjang masa yang fungsional untuk mencari hari dan pasaran kelahiran seseorang secara akurat.",
+      "Proyek ini dibangun dengan fokus utama pada pelestarian budaya dan sebagai sarana hiburan. Karenanya, penting untuk ditekankan bahwa Weton tidak dirancang sebagai alat peramal. Hasil perhitungan disajikan sebagai wawasan budaya yang menarik, bukan sebagai kebenaran mutlak yang harus dipercayai sepenuhnya, sehingga mengajak pengguna untuk mengenal tradisi leluhur dengan cara yang lebih relevan dan menyenangkan."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/weton/thumbnail.png",
     "framework": ["Vue.js", "Java Android"],
     "type": ["Frontend", "Android"],
     "category": "Hobby",
+    "hight_light": true,
     "author": ["Nur Fatiq (saya)"],
     "sub_project": [
       {
         "title": "Android",
-        "description": [],
+        "description": [
+          "Ini adalah implementasi Weton dalam bentuk aplikasi Android native yang dikembangkan menggunakan Java. Aplikasi ini dirancang sebagai platform mandiri yang memungkinkan pengguna mengakses berbagai fitur perhitungan tradisional Jawa langsung dari ponsel mereka. Fitur-fitur utamanya mencakup kalender sepanjang masa untuk mencari weton, analisis kecocokan pasangan, dan kalkulator Sio, semuanya dikemas dalam antarmuka yang dioptimalkan untuk perangkat mobile."
+        ],
         "github_url": "https://github.com/Anomali99/Weton",
         "demo_url": "https://github.com/Anomali99/Weton/releases/tag/release",
         "framework": "Java Android",
@@ -128,7 +150,9 @@
       },
       {
         "title": "Frontend",
-        "description": [],
+        "description": [
+          "Versi web dari proyek Weton ini dikembangkan menggunakan framework Vue.js untuk menyajikan pengalaman yang interaktif dan responsif. Sebagai aplikasi yang berjalan di sisi klien (client-side), platform ini menyediakan akses instan ke semua fitur utama—seperti kalender sepanjang masa, analisis pasangan, dan perhitungan Sio—langsung dari browser tanpa perlu instalasi. Proyek ini merupakan eksplorasi independen untuk membawa konsep yang sama ke platform web yang dapat diakses secara universal."
+        ],
         "github_url": "https://github.com/Anomali99/weton-web",
         "demo_url": "https://weton-next.web.app",
         "framework": "Vue.js",
@@ -145,13 +169,17 @@
   {
     "title": "Flix Box",
     "slug": "flix-box",
-    "description": [],
+    "description": [
+      "Flix Box adalah aplikasi web yang saya kembangkan untuk menyediakan antarmuka modern bagi koleksi film yang tersimpan secara lokal. Keunikan utamanya adalah portabilitas; aplikasi ini dirancang agar dapat dijalankan bersama web server seperti Nginx langsung dari hard disk eksternal. Hal ini memungkinkan pengguna untuk membawa dan mengakses seluruh katalog film mereka di komputer mana pun secara praktis. Proyek ini merupakan pengembangan dan pembaruan dari konsep aplikasi \"Film Center\" yang pernah saya buat sebelumnya.",
+      "Aplikasi ini menawarkan manajemen katalog yang fleksibel, di mana pengguna dapat dengan mudah mengubah daftar film melalui file data.json dan menyembunyikan judul tertentu via app.config.json. Untuk pengalaman pengguna yang lebih baik, tersedia fitur pencarian canggih berdasarkan judul, genre, atau grup. Selain itu, Flix Box dilengkapi sistem histori yang secara otomatis menyimpan film dan waktu terakhir ditonton, memungkinkan pengguna untuk melanjutkan pemutaran film tepat di mana mereka berhenti."
+    ],
     "year": "2025",
     "thumbnail": "/images/projects/flix-box/thumbnail.png",
     "github_url": "https://github.com/Anomali99/FlixBox",
     "framework": ["React"],
     "type": ["Frontend"],
     "category": "Hobby",
+    "hight_light": true,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
       "/images/projects/flix-box/flix-box1.png",
@@ -164,7 +192,10 @@
   {
     "title": "Mapping Telemung",
     "slug": "mapping-telemung",
-    "description": [],
+    "description": [
+      "Mapping Telemung adalah proyek hobi berbasis web yang saya kembangkan sebagai sarana eksplorasi pribadi dalam penerapan teknologi peta interaktif. Fokus utama dari proyek ini adalah untuk mempelajari proses dan tantangan dalam memvisualisasikan data geografis, menjadikannya sebuah studi kasus praktis dalam pengembangan aplikasi berbasis peta.",
+      "Secara teknis, implementasinya fungsional dan sederhana: seluruh data geografis didefinisikan dalam sebuah file JSON. Data ini kemudian dibaca oleh aplikasi untuk merender dua objek utama di atas peta, yaitu penanda (marker) untuk titik lokasi spesifik dan poligon (polygon) untuk menggambarkan garis batas wilayah. Proyek ini menunjukkan bagaimana data terstruktur dapat dengan mudah diubah menjadi visualisasi peta yang informatif."
+    ],
     "year": "2025",
     "thumbnail": "/images/projects/mapping-telemung/thumbnail.png",
     "github_url": "https://github.com/Anomali99/mapping-telemung",
@@ -172,6 +203,7 @@
     "framework": ["React"],
     "type": ["Frontend"],
     "category": "Hobby",
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
       "/images/projects/mapping-telemung/mapping-telemung1.png",
@@ -184,26 +216,34 @@
   {
     "title": "Simple Game",
     "slug": "simple-game",
-    "description": [],
+    "description": [
+      "Simple Game merupakan proyek hobi yang saya kembangkan sebagai langkah awal untuk mengenal Flame Engine di dalam ekosistem Flutter. Tujuan utama proyek ini bukanlah untuk menciptakan sebuah game yang kompleks, melainkan sebagai media untuk belajar dan bereksperimen dengan game engine yang sebelumnya belum pernah saya gunakan.",
+      "Proses pengembangannya didasarkan pada panduan tutorial YouTube, yang memungkinkan saya untuk fokus memahami konsep-konsep inti. Melalui proyek ini, saya berhasil mempraktikkan secara langsung implementasi game loop, manajemen aset sprite, dan logika dasar untuk deteksi tabrakan (collision detection). Proyek ini menjadi fondasi praktis yang berharga sebelum melangkah ke eksplorasi yang lebih mandiri dengan Flame Engine."
+    ],
     "year": "2025",
     "thumbnail": "/images/projects/simple-game/thumbnail.jpg",
     "github_url": "https://github.com/Anomali99/simple_game",
     "framework": ["Flutter"],
     "type": ["Android"],
     "category": "Hobby",
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": ["/images/projects/simple-game/simple-game.jpg"]
   },
   {
     "title": "Film Center",
     "slug": "film-center",
-    "description": [],
+    "description": [
+      "Film Center adalah proyek awal yang menjadi fondasi bagi pengembangan aplikasi Flix Box. Konsep utamanya adalah menciptakan sebuah antarmuka web yang sederhana untuk mengelola dan menelusuri koleksi film pribadi. Seperti penerusnya, aplikasi ini dirancang untuk bersifat portabel, memungkinkan pengguna menjalankannya dari hard disk eksternal di berbagai komputer dengan bantuan web server seperti Nginx.",
+      "Fitur yang tersedia pada versi ini mencakup manajemen katalog film melalui file index.json serta fungsi pencarian dasar berdasarkan judul, genre, atau grup. Sebagai versi awal, proyek ini memiliki beberapa keterbatasan, seperti sejumlah bug dan antarmuka yang belum sepenuhnya responsif. Pengalaman dan tantangan dari Film Center inilah yang menjadi pelajaran berharga serta pendorong utama untuk merancang ulang dan mengembangkan Flix Box menjadi aplikasi yang lebih matang dan stabil."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/film-center/thumbnail.png",
     "github_url": "https://github.com/Anomali99/film-center",
     "framework": ["Vue.js"],
     "type": ["Frontend"],
     "category": "Hobby",
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
       "/images/projects/film-center/film-center1.png",
@@ -214,23 +254,31 @@
   {
     "title": "Pischat",
     "slug": "pischat",
-    "description": [],
+    "description": [
+      "Pischat adalah proyek full-stack hobi yang saya kembangkan untuk mengeksplorasi dan menguasai arsitektur aplikasi perpesanan real-time yang multi-platform. Tantangan utamanya adalah mengintegrasikan tiga komponen utama: sebuah backend dengan WebSocket, antarmuka web, dan aplikasi mobile Android, agar dapat berkomunikasi secara lancar dan instan.",
+      "Berbeda dari aplikasi chat sederhana, Pischat dirancang dengan integrasi database untuk menyimpan data pengguna dan riwayat percakapan secara persisten. Sistem ini dibangun menggunakan Express.js untuk sisi server, React untuk antarmuka web, dan React Native untuk aplikasi Android, menunjukkan kemampuan untuk membangun ekosistem produk yang terpadu."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/pischat/thumbnail.jpg",
     "framework": ["React", "Express.js", "React Native"],
     "type": ["Frontend", "Backend", "Android"],
     "category": "Hobby",
+    "hight_light": true,
     "author": ["Nur Fatiq (saya)"],
     "sub_project": [
       {
         "title": "Backend",
-        "description": [],
+        "description": [
+          "Ini adalah komponen backend yang menjadi pusat dari ekosistem Pischat, dikembangkan dengan Express.js. Server ini bertanggung jawab untuk menangani koneksi WebSocket dari klien web dan mobile, mengelola logika pengiriman pesan secara real-time, serta terhubung ke database untuk menyimpan dan mengambil data pengguna beserta riwayat percakapan."
+        ],
         "github_url": "https://github.com/Anomali99/pischat-server-express-js",
         "framework": "Express.js"
       },
       {
         "title": "Frontend",
-        "description": [],
+        "description": [
+          "Ini adalah antarmuka pengguna berbasis web untuk Pischat, yang dibangun menggunakan React. Aplikasi single-page (SPA) ini terhubung ke server WebSocket untuk menerima dan mengirim pesan secara instan. Tugasnya adalah menyajikan pengalaman chatting yang responsif dan intuitif bagi pengguna yang mengakses melalui browser."
+        ],
         "github_url": "https://github.com/Anomali99/pischat-web-react-js",
         "framework": "React",
         "preview": [
@@ -242,7 +290,9 @@
       },
       {
         "title": "Android",
-        "description": [],
+        "description": [
+          "Ini adalah aplikasi mobile untuk platform Android, yang dikembangkan menggunakan React Native. Sama seperti versi web, aplikasi ini terhubung ke server WebSocket yang sama untuk fungsionalitas chatting real-time. Proyek ini menunjukkan kemampuan untuk membangun pengalaman pengguna native yang terintegrasi penuh dengan ekosistem aplikasi yang lebih besar."
+        ],
         "github_url": "https://github.com/Anomali99/pischat-mobile-react-native",
         "framework": "React Native",
         "preview": ["/images/projects/pischat/pischat-android.jpg"]
@@ -252,26 +302,34 @@
   {
     "title": "Chat App",
     "slug": "chat-app",
-    "description": [],
+    "description": [
+      "Proyek Chat App ini merupakan eksplorasi hobi saya untuk mempelajari salah satu teknologi web modern yang paling fundamental, yaitu WebSocket. Tujuan utamanya adalah untuk membangun sebuah aplikasi web yang fungsional dari awal, dengan fokus spesifik pada bagaimana komunikasi real-time dapat diimplementasikan menggunakan Express.js sebagai backend.",
+      "Pengembangannya mengacu pada sebuah panduan tutorial yang menjadi kerangka kerja untuk mempraktikkan konsep-konsep teknis. Dalam prosesnya, saya belajar secara langsung cara menginisiasi server WebSocket, mengelola koneksi dari berbagai klien, serta logika untuk menyiarkan (broadcasting) pesan ke semua pengguna yang terhubung. Proyek ini memberikan fondasi yang solid untuk memahami arsitektur aplikasi real-time."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/chat-app/thumbnail.jpg",
     "github_url": "https://github.com/Anomali99/Chat-App-Express",
     "framework": ["Express.js"],
     "type": ["Frontend", "Backend"],
     "category": "Hobby",
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": ["/images/projects/chat-app/chat-app.jpg"]
   },
   {
     "title": "e-Payment Pondok Assyafiiyah",
     "slug": "e-ppa",
-    "description": [],
+    "description": [
+      "e-Payment Pondok Assyafiiyah adalah sebuah aplikasi web hobi yang dibangun untuk menciptakan sistem manajemen keuangan yang modern dan terpusat bagi Pondok Pesantren Assyafi'iyah. Tujuan utamanya adalah menggantikan proses manual dengan platform digital yang efisien, transparan, dan aman.",
+      "Untuk mencapai hal tersebut, aplikasi ini mengimplementasikan sistem hak akses multi-level (Role-Based Access Control). Terdapat tiga tingkatan akses internal: Admin dengan kontrol penuh atas semua fitur, Bendahara Putra yang hanya dapat mengelola data santri putra, dan Bendahara Putri yang khusus menangani data santri putri. Di sisi eksternal, Wali Santri dan pengguna lain dapat secara mandiri melihat detail tunggakan, mengekspornya ke PDF, dan mengirimkan bukti pembayaran, yang kemudian akan divalidasi oleh bendahara yang berwenang."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/e-ppa/thumbnail.png",
     "github_url": "https://github.com/Anomali99/e-PPA",
     "framework": ["React", "Flask"],
     "type": ["Frontend", "Backend"],
     "category": "Hobby",
+    "hight_light": true,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
       "/images/projects/e-ppa/e-ppa1.png",
@@ -291,13 +349,17 @@
   {
     "title": "Living Home",
     "slug": "living-home",
-    "description": [],
+    "description": [
+      "Living Home adalah aplikasi web fungsional yang dibangun sebagai tugas kuliah menggunakan framework Django. Aplikasi ini memiliki dua peran utama: sebagai katalog online untuk penjualan produk perlengkapan rumah, sekaligus sebagai tool analitik sederhana untuk memonitor asal pengunjung atau calon pembeli.",
+      "Inti dari fitur monitoringnya adalah sistem yang mampu menghasilkan tiga link pelacakan (tracking links) yang berbeda, masing-masing untuk dipasang di Website, Facebook, dan Instagram. Ketika seorang pengguna mengklik salah satu link tersebut, sistem akan mencatat sumbernya. Data yang terkumpul kemudian diolah dan disajikan dalam bentuk grafik visual pada dasbor monitoring menggunakan library Matplotlib, sehingga memberikan gambaran jelas mengenai channel mana yang paling efektif dalam mendatangkan trafik."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/living-home/thumbnail.png",
     "github_url": "https://github.com/Anomali99/livinghome-django",
     "framework": ["Django"],
     "type": ["Frontend", "Backend"],
     "category": "Coursework",
+    "hight_light": false,
     "author": [
       "Nur Fatiq (saya)",
       "Muhammad Saiful Arifin",
@@ -317,13 +379,17 @@
   {
     "title": "Libra Linx",
     "slug": "libra-linx",
-    "description": [],
+    "description": [
+      "Libra Linx merupakan proyek tugas untuk mata kuliah Pemrograman Berorientasi Objek (PBO) yang dikembangkan dengan antarmuka berbasis Java Swing. Aplikasi ini dirancang untuk menerapkan prinsip-prinsip PBO secara mendalam, di mana setiap entitas sistem direpresentasikan sebagai objek yang saling berinteraksi.",
+      "Tantangan utama dan inti dari proyek ini adalah implementasi konsep data persistence. Di sini, tujuannya bukan hanya sekadar menghubungkan aplikasi ke database, melainkan merancang sebuah mekanisme agar status dan data dari setiap objek dapat disimpan, dikelola, dan diambil kembali secara konsisten. Ini menjadi latihan fundamental dalam memahami bagaimana data aplikasi bisa tetap \"hidup\" (persisten) di luar runtime aplikasi, sebuah konsep kunci dalam pengembangan perangkat lunak yang lebih kompleks dan andal."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/libra-linx/thumbnail.png",
     "github_url": "https://github.com/Anomali99/LibraLinx-Tugas-PBO",
     "framework": ["Java Swing"],
     "type": ["Desktop"],
     "category": "Coursework",
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
       "/images/projects/libra-linx/libra-linx1.png",
@@ -346,13 +412,17 @@
   {
     "title": "Cafe2K",
     "slug": "cafe2k",
-    "description": [],
+    "description": [
+      "Cafe2K adalah aplikasi simulasi manajemen kafe yang dikembangkan sebagai tugas untuk mata kuliah Basis Data Lanjutan. Aplikasi desktop ini dibangun menggunakan teknologi Java Swing dan dirancang untuk mempraktikkan konsep database dalam skenario yang lebih kompleks dan mendekati kondisi nyata.",
+      "Pada proyek ini, saya mengambil langkah signifikan dari koneksi database manual dengan mengimplementasikan sebuah lapisan persistence. Pendekatan ini digunakan untuk menangani semua interaksi data secara lebih terstruktur dan efisien, meniru arsitektur aplikasi modern yang memisahkan logika bisnis dari akses data."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/cafe2k/thumbnail.png",
     "github_url": "https://github.com/Anomali99/Cafe2K-Persistent-Version",
     "framework": ["Java Swing"],
     "type": ["Desktop"],
     "category": "Coursework",
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)", "Ulil Azmi Al Huraibi", "Muhammad Al Fatih"],
     "preview": [
       "/images/projects/cafe2k/cafe2k1.png",
@@ -372,13 +442,17 @@
   {
     "title": "Sumber Makmur",
     "slug": "sumber-makmur",
-    "description": [],
+    "description": [
+      "Sumber Makmur merupakan aplikasi desktop yang dikembangkan sebagai bagian dari tugas kuliah di semester awal, dengan menggunakan teknologi Java Swing. Sebagai proyek pengantar, aplikasi ini dirancang secara sederhana untuk memenuhi tujuan pembelajaran yang spesifik pada saat itu.",
+      "Penekanan utama dari proyek ini adalah pada aspek konektivitas database. Tugas ini menjadi kesempatan pertama saya untuk mengimplementasikan koneksi antara antarmuka pengguna grafis (GUI) dengan database relasional. Melalui proyek ini, saya mempraktikkan secara langsung cara membuat, membaca, memperbarui, dan menghapus data (CRUD) dari dalam sebuah aplikasi Java, membangun fondasi penting untuk pemahaman arsitektur perangkat lunak yang lebih kompleks di kemudian hari."
+    ],
     "year": "2024",
     "thumbnail": "/images/projects/sumber-makmur/thumbnail.png",
     "github_url": "https://github.com/Anomali99/SumberMakmur",
     "framework": ["Java Swing"],
     "type": ["Desktop"],
     "category": "Coursework",
+    "hight_light": false,
     "author": [
       "Nur Fatiq (saya)",
       "Fahmi Surya Hidayat",

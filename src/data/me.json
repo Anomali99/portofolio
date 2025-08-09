@@ -1,0 +1,40 @@
+{
+  "name": "Nur Fatiq",
+  "title": "Full Stack Developer",
+  "short_description": "Mahasiswa Sistem Informasi dengan minat besar pada pengembangan full-stack. Antusias dalam belajar dan membangun aplikasi web maupun mobile dari hulu ke hilir.",
+  "description": [
+    "Perkenalkan, saya Nur Fatiq. Saya adalah seorang pengembang perangkat lunak dengan keinginan kuat terhadap teknologi dan pemecahan masalah melalui kode. Saat ini saya juga seorang mahasiswa Sistem Informasi di UIN Sunan Ampel Surabaya. Perjalanan saya di dunia programming dimulai dari rasa penasaran, yang mendorong saya untuk secara proaktif belajar dan membangun berbagai proyek hobi bahkan sebelum memulai perkuliahan formal.",
+    "Melalui proyek-proyek tersebut, saya telah membangun pengalaman dalam siklus pengembangan end-to-end. Saya menikmati proses merancang arsitektur backend, membangun API, hingga mengelola database. Di sisi lain, saya juga bersemangat dalam menciptakan antarmuka pengguna yang bersih, responsif, dan fungsional, baik untuk platform web maupun mobile. Kemampuan untuk bekerja di kedua sisi ini membuat saya dapat melihat gambaran besar sebuah proyek secara holistik.",
+    "Saya selalu mencari kesempatan untuk belajar hal-hal baru, berkolaborasi dalam proyek-proyek yang menantang, dan menerapkan pengetahuan saya untuk menciptakan solusi digital yang bermanfaat. Saya percaya bahwa kombinasi antara pendidikan formal dan rasa ingin tahu yang diwujudkan dalam proyek pribadi adalah kunci untuk menjadi seorang developer yang kompeten dan inovatif."
+  ],
+  "email": "fatiqnur@gmail.com",
+  "github": "https://github.com/Anomali99",
+  "linkedin": "https://www.linkedin.com/in/nur-fatiq-b26452315/",
+  "facebook": "https://www.facebook.com/profile.php?id=100007317105187",
+  "instagram": "https://www.instagram.com/fatiq5127/",
+  "study": [
+    {
+      "name": "Universitas Islam Negeri Sunan Ampel Surabaya",
+      "specialist": "S1 Sistem Informasi",
+      "description": "Program studi Sistem Informasi di UIN Sunan Ampel menjadi titik nol dan awal mula perjalanan saya di dunia pemrograman. Di sinilah saya untuk pertama kalinya menyentuh dunia pemrograman dan mulai memahami bagaimana sebuah ide dapat diwujudkan menjadi kode. Setiap mata kuliah menjadi jendela baru yang membuka wawasan saya tentang logika, algoritma, dan dasar-dasar rekayasa perangkat lunak. Saya memulai dari dasar dengan rasa ingin tahu yang besar dan semangat untuk membangun keahlian saya dari nol.",
+      "start": "2025",
+      "end": "Sekarang",
+      "image": "/images/study-uinsa.jpg"
+    },
+    {
+      "name": "MA Ma'arif 7 Sunan Drajat Lamongan",
+      "specialist": "Ilmu Pengetahuan Alam",
+      "description": "Jenjang Madrasah Aliyah menjadi titik awal eksplorasi saya di dunia teknologi, meskipun belum menyentuh pemrograman secara langsung. Melalui kegiatan organisasi, saya mulai mendalami desain grafis menggunakan CorelDRAW, di mana saya sering membuat materi publikasi seperti poster, banner, dan majalah. Di sisi teknis, rasa ingin tahu membawa saya untuk bereksperimen dengan perangkat keras, mulai dari membongkar-pasang hingga menginstal ulang sistem operasi pada komputer sekolah yang bermasalah. Pengalaman-pengalaman praktis inilah yang menumbuhkan minat dan memberikan fondasi awal saya untuk mendalami teknologi secara lebih mendalam di kemudian hari.",
+      "start": "2019",
+      "end": "2022",
+      "image": "/images/study-mama7.jpg"
+    },
+    {
+      "name": "SMP N 1 Bungah Gresik",
+      "description": "Pada jenjang ini, saya fokus membangun fondasi akademik yang esensial dan mengembangkan keterampilan sosial. Masa SMP menjadi periode penting untuk belajar disiplin, bekerja sama dalam kelompok, dan menyerap pengetahuan dasar dari berbagai bidang studi yang menjadi bekal untuk jenjang pendidikan selanjutnya.",
+      "start": "2016",
+      "end": "2019",
+      "image": "/images/study-smpn1.jpg"
+    }
+  ]
+}
