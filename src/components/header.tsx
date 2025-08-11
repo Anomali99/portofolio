@@ -46,7 +46,7 @@ const Header: React.FC = () => {
   }, [])
 
   return (
-    <header className="sticky top-0 flex w-full max-w-full flex-row items-center justify-between bg-(--background) px-4 py-4 md:px-8 lg:max-w-7xl lg:px-0">
+    <header className="absolute top-0 z-10 flex w-full max-w-full flex-row items-center justify-between bg-(--background) px-4 py-4 md:px-8 lg:max-w-7xl lg:px-0">
       <div className="flex flex-row items-center gap-10">
         <h1 className="text-2xl font-semibold text-(--foreground)">
           Anomali99
