@@ -154,7 +154,7 @@
           "Versi web dari proyek Weton ini dikembangkan menggunakan framework Vue.js untuk menyajikan pengalaman yang interaktif dan responsif. Sebagai aplikasi yang berjalan di sisi klien (client-side), platform ini menyediakan akses instan ke semua fitur utama—seperti kalender sepanjang masa, analisis pasangan, dan perhitungan Sio—langsung dari browser tanpa perlu instalasi. Proyek ini merupakan eksplorasi independen untuk membawa konsep yang sama ke platform web yang dapat diakses secara universal."
         ],
         "github_url": "https://github.com/Anomali99/weton-web",
-        "demo_url": "https://weton-next.web.app",
+        "demo_url": "https://weton.anomali99.my.id",
         "framework": "Vue.js",
         "preview": [
           "/images/projects/weton/weton-frontend1.webp",

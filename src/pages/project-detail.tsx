@@ -153,7 +153,7 @@ const ProjectDetailPage: React.FC = () => {
                 target="_blank"
                 className="flex items-center gap-2 rounded-md bg-(--accent) px-6 py-3 font-semibold text-white transition hover:bg-(--accent)/80"
               >
-                <FaExternalLinkAlt size={20} /> Live Demo
+                <FaExternalLinkAlt size={20} /> Demo
               </a>
             )}
           </div>

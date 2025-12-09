@@ -176,11 +176,11 @@ export const frameworkIcons: Array<IconMapType> = [
   },
   {
     title: "Java Android",
-    icon: SiKotlin,
+    icon: FaJava,
   },
   {
     title: "Kotlin Android",
-    icon: FaReact,
+    icon: SiKotlin,
   },
   {
     title: "Flutter",
