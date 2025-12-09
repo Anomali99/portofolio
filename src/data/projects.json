@@ -7,7 +7,7 @@
       "Untuk menyajikan data secara dinamis, Zen Garden memanfaatkan teknologi WebSocket yang memungkinkan pembaruan sensor langsung ke dasbor tanpa jeda. Platform ini juga dilengkapi fitur-fitur pendukung seperti notifikasi push melalui Firebase untuk peringatan penting, serta sistem jadwal penanaman dan pelacakan tugas untuk membantu pengguna mengelola aktivitas berkebun secara terstruktur. Dengan antarmuka berbasis React yang responsif dan ramah pengguna, Zen Garden memastikan pengalaman pengguna yang optimal di berbagai perangkat, baik desktop maupun ponsel."
     ],
     "year": "2025",
-    "thumbnail": "/images/projects/zen-garden/thumbnail.jpg",
+    "thumbnail": "/images/projects/zen-garden/thumbnail.webp",
     "github_url": "https://github.com/Zen-Garden-SAD",
     "framework": ["React", "Flask", "Kotlin Android", "Arduino Core"],
     "type": ["Frontend", "Backend", "Android", "Arduino"],
@@ -36,36 +36,36 @@
         "demo_url": "https://zengarden.anomali99.my.id",
         "framework": "React",
         "preview": [
-          "/images/projects/zen-garden/zen-garden-frontend1.png",
-          "/images/projects/zen-garden/zen-garden-frontend2.png",
-          "/images/projects/zen-garden/zen-garden-frontend3.png",
-          "/images/projects/zen-garden/zen-garden-frontend4.png",
-          "/images/projects/zen-garden/zen-garden-frontend5.png",
-          "/images/projects/zen-garden/zen-garden-frontend6.png",
-          "/images/projects/zen-garden/zen-garden-frontend7.png",
-          "/images/projects/zen-garden/zen-garden-frontend8.png",
-          "/images/projects/zen-garden/zen-garden-frontend9.png",
-          "/images/projects/zen-garden/zen-garden-frontend10.png",
-          "/images/projects/zen-garden/zen-garden-frontend11.png",
-          "/images/projects/zen-garden/zen-garden-frontend12.png",
-          "/images/projects/zen-garden/zen-garden-frontend13.png",
-          "/images/projects/zen-garden/zen-garden-frontend14.png",
-          "/images/projects/zen-garden/zen-garden-frontend15.png",
-          "/images/projects/zen-garden/zen-garden-frontend16.png",
-          "/images/projects/zen-garden/zen-garden-frontend17.png",
-          "/images/projects/zen-garden/zen-garden-frontend18.png",
-          "/images/projects/zen-garden/zen-garden-frontend19.png",
-          "/images/projects/zen-garden/zen-garden-frontend20.png",
-          "/images/projects/zen-garden/zen-garden-frontend21.png",
-          "/images/projects/zen-garden/zen-garden-frontend22.png",
-          "/images/projects/zen-garden/zen-garden-frontend23.png",
-          "/images/projects/zen-garden/zen-garden-frontend24.png",
-          "/images/projects/zen-garden/zen-garden-frontend25.png",
-          "/images/projects/zen-garden/zen-garden-frontend26.png",
-          "/images/projects/zen-garden/zen-garden-frontend27.png",
-          "/images/projects/zen-garden/zen-garden-frontend28.png",
-          "/images/projects/zen-garden/zen-garden-frontend29.png",
-          "/images/projects/zen-garden/zen-garden-frontend30.png"
+          "/images/projects/zen-garden/zen-garden-frontend1.webp",
+          "/images/projects/zen-garden/zen-garden-frontend2.webp",
+          "/images/projects/zen-garden/zen-garden-frontend3.webp",
+          "/images/projects/zen-garden/zen-garden-frontend4.webp",
+          "/images/projects/zen-garden/zen-garden-frontend5.webp",
+          "/images/projects/zen-garden/zen-garden-frontend6.webp",
+          "/images/projects/zen-garden/zen-garden-frontend7.webp",
+          "/images/projects/zen-garden/zen-garden-frontend8.webp",
+          "/images/projects/zen-garden/zen-garden-frontend9.webp",
+          "/images/projects/zen-garden/zen-garden-frontend10.webp",
+          "/images/projects/zen-garden/zen-garden-frontend11.webp",
+          "/images/projects/zen-garden/zen-garden-frontend12.webp",
+          "/images/projects/zen-garden/zen-garden-frontend13.webpp",
+          "/images/projects/zen-garden/zen-garden-frontend14.webp",
+          "/images/projects/zen-garden/zen-garden-frontend15.webp",
+          "/images/projects/zen-garden/zen-garden-frontend16.webp",
+          "/images/projects/zen-garden/zen-garden-frontend17.webp",
+          "/images/projects/zen-garden/zen-garden-frontend18.webp",
+          "/images/projects/zen-garden/zen-garden-frontend19.webp",
+          "/images/projects/zen-garden/zen-garden-frontend20.webp",
+          "/images/projects/zen-garden/zen-garden-frontend21.webp",
+          "/images/projects/zen-garden/zen-garden-frontend22.webp",
+          "/images/projects/zen-garden/zen-garden-frontend23.webp",
+          "/images/projects/zen-garden/zen-garden-frontend24.webp",
+          "/images/projects/zen-garden/zen-garden-frontend25.webp",
+          "/images/projects/zen-garden/zen-garden-frontend26.webp",
+          "/images/projects/zen-garden/zen-garden-frontend27.webp",
+          "/images/projects/zen-garden/zen-garden-frontend28.webp",
+          "/images/projects/zen-garden/zen-garden-frontend29.webp",
+          "/images/projects/zen-garden/zen-garden-frontend30.webp"
         ]
       },
       {
@@ -77,8 +77,8 @@
         "demo_url": "https://github.com/Zen-Garden-SAD/Mobile/releases/tag/v1.0.0",
         "framework": "Kotlin Android",
         "preview": [
-          "/images/projects/zen-garden/zen-garden-android1.jpg",
-          "/images/projects/zen-garden/zen-garden-android2.jpg"
+          "/images/projects/zen-garden/zen-garden-android1.webp",
+          "/images/projects/zen-garden/zen-garden-android2.webp"
         ]
       },
       {
@@ -89,11 +89,11 @@
         "github_url": "https://github.com/Zen-Garden-SAD/IoT",
         "framework": "Arduino Core",
         "preview": [
-          "/images/projects/zen-garden/zen-garden-arduino1.jpg",
-          "/images/projects/zen-garden/zen-garden-arduino2.jpg",
-          "/images/projects/zen-garden/zen-garden-arduino3.jpg",
-          "/images/projects/zen-garden/zen-garden-arduino4.jpg",
-          "/images/projects/zen-garden/zen-garden-arduino5.jpg"
+          "/images/projects/zen-garden/zen-garden-arduino1.webp",
+          "/images/projects/zen-garden/zen-garden-arduino2.webp",
+          "/images/projects/zen-garden/zen-garden-arduino3.webp",
+          "/images/projects/zen-garden/zen-garden-arduino4.webp",
+          "/images/projects/zen-garden/zen-garden-arduino5.webp"
         ]
       }
     ]
@@ -106,7 +106,7 @@
       "Secara teknis, aplikasi ini mengombinasikan dua model deep learning dalam arsitektur dua tahap (two-stage). Model YOLOv8 bertugas untuk menemukan dan melokalisasi posisi piala dalam gambar (deteksi objek). Setelah terdeteksi, objek tersebut kemudian dianalisis lebih lanjut oleh model ResNet18 untuk proses klasifikasi dan identifikasi akhir."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/trophy-vision/thumbnail.jpg",
+    "thumbnail": "/images/projects/trophy-vision/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/TrophyVision",
     "demo_url": "https://github.com/Anomali99/TrophyVision/releases/tag/v1.1",
     "framework": ["Kotlin Android"],
@@ -121,7 +121,7 @@
       "Fauziah Afrisa N",
       "Irkhamnawan Dikmanta Putra"
     ],
-    "preview": ["/images/projects/trophy-vision/trophy-vision.jpg"]
+    "preview": ["/images/projects/trophy-vision/trophy-vision.webp"]
   },
   {
     "title": "Weton",
@@ -131,7 +131,7 @@
       "Proyek ini dibangun dengan fokus utama pada pelestarian budaya dan sebagai sarana hiburan. Karenanya, penting untuk ditekankan bahwa Weton tidak dirancang sebagai alat peramal. Hasil perhitungan disajikan sebagai wawasan budaya yang menarik, bukan sebagai kebenaran mutlak yang harus dipercayai sepenuhnya, sehingga mengajak pengguna untuk mengenal tradisi leluhur dengan cara yang lebih relevan dan menyenangkan."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/weton/thumbnail.png",
+    "thumbnail": "/images/projects/weton/thumbnail.webp",
     "framework": ["Vue.js", "Java Android"],
     "type": ["Frontend", "Android"],
     "category": "Hobby",
@@ -146,7 +146,7 @@
         "github_url": "https://github.com/Anomali99/Weton",
         "demo_url": "https://github.com/Anomali99/Weton/releases/tag/release",
         "framework": "Java Android",
-        "preview": ["/images/projects/weton/weton-android.jpg"]
+        "preview": ["/images/projects/weton/weton-android.webp"]
       },
       {
         "title": "Frontend",
@@ -157,11 +157,11 @@
         "demo_url": "https://weton-next.web.app",
         "framework": "Vue.js",
         "preview": [
-          "/images/projects/weton/weton-frontend1.png",
-          "/images/projects/weton/weton-frontend2.png",
-          "/images/projects/weton/weton-frontend3.png",
-          "/images/projects/weton/weton-frontend4.png",
-          "/images/projects/weton/weton-frontend5.png"
+          "/images/projects/weton/weton-frontend1.webpp",
+          "/images/projects/weton/weton-frontend2.webp",
+          "/images/projects/weton/weton-frontend3.webp",
+          "/images/projects/weton/weton-frontend4.webp",
+          "/images/projects/weton/weton-frontend5.webp"
         ]
       }
     ]
@@ -174,7 +174,7 @@
       "Aplikasi ini menawarkan manajemen katalog yang fleksibel, di mana pengguna dapat dengan mudah mengubah daftar film melalui file data.json dan menyembunyikan judul tertentu via app.config.json. Untuk pengalaman pengguna yang lebih baik, tersedia fitur pencarian canggih berdasarkan judul, genre, atau grup. Selain itu, Flix Box dilengkapi sistem histori yang secara otomatis menyimpan film dan waktu terakhir ditonton, memungkinkan pengguna untuk melanjutkan pemutaran film tepat di mana mereka berhenti."
     ],
     "year": "2025",
-    "thumbnail": "/images/projects/flix-box/thumbnail.png",
+    "thumbnail": "/images/projects/flix-box/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/FlixBox",
     "framework": ["React"],
     "type": ["Frontend"],
@@ -182,11 +182,11 @@
     "hight_light": true,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/flix-box/flix-box1.png",
-      "/images/projects/flix-box/flix-box2.png",
-      "/images/projects/flix-box/flix-box3.png",
-      "/images/projects/flix-box/flix-box4.png",
-      "/images/projects/flix-box/flix-box5.png"
+      "/images/projects/flix-box/flix-box1.webp",
+      "/images/projects/flix-box/flix-box2.webp",
+      "/images/projects/flix-box/flix-box3.webp",
+      "/images/projects/flix-box/flix-box4.webp",
+      "/images/projects/flix-box/flix-box5.webp"
     ]
   },
   {
@@ -197,7 +197,7 @@
       "Secara teknis, implementasinya fungsional dan sederhana: seluruh data geografis didefinisikan dalam sebuah file JSON. Data ini kemudian dibaca oleh aplikasi untuk merender dua objek utama di atas peta, yaitu penanda (marker) untuk titik lokasi spesifik dan poligon (polygon) untuk menggambarkan garis batas wilayah. Proyek ini menunjukkan bagaimana data terstruktur dapat dengan mudah diubah menjadi visualisasi peta yang informatif."
     ],
     "year": "2025",
-    "thumbnail": "/images/projects/mapping-telemung/thumbnail.png",
+    "thumbnail": "/images/projects/mapping-telemung/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/mapping-telemung",
     "demo_url": "https://mapping.anomali99.my.id",
     "framework": ["React"],
@@ -206,11 +206,11 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/mapping-telemung/mapping-telemung1.png",
-      "/images/projects/mapping-telemung/mapping-telemung2.png",
-      "/images/projects/mapping-telemung/mapping-telemung3.png",
-      "/images/projects/mapping-telemung/mapping-telemung4.png",
-      "/images/projects/mapping-telemung/mapping-telemung5.png"
+      "/images/projects/mapping-telemung/mapping-telemung1.webp",
+      "/images/projects/mapping-telemung/mapping-telemung2.webp",
+      "/images/projects/mapping-telemung/mapping-telemung3.webp",
+      "/images/projects/mapping-telemung/mapping-telemung4.webp",
+      "/images/projects/mapping-telemung/mapping-telemung5.webp"
     ]
   },
   {
@@ -221,14 +221,14 @@
       "Proses pengembangannya didasarkan pada panduan tutorial YouTube, yang memungkinkan saya untuk fokus memahami konsep-konsep inti. Melalui proyek ini, saya berhasil mempraktikkan secara langsung implementasi game loop, manajemen aset sprite, dan logika dasar untuk deteksi tabrakan (collision detection). Proyek ini menjadi fondasi praktis yang berharga sebelum melangkah ke eksplorasi yang lebih mandiri dengan Flame Engine."
     ],
     "year": "2025",
-    "thumbnail": "/images/projects/simple-game/thumbnail.jpg",
+    "thumbnail": "/images/projects/simple-game/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/simple_game",
     "framework": ["Flutter"],
     "type": ["Android"],
     "category": "Hobby",
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
-    "preview": ["/images/projects/simple-game/simple-game.jpg"]
+    "preview": ["/images/projects/simple-game/simple-game.webp"]
   },
   {
     "title": "Film Center",
@@ -238,7 +238,7 @@
       "Fitur yang tersedia pada versi ini mencakup manajemen katalog film melalui file index.json serta fungsi pencarian dasar berdasarkan judul, genre, atau grup. Sebagai versi awal, proyek ini memiliki beberapa keterbatasan, seperti sejumlah bug dan antarmuka yang belum sepenuhnya responsif. Pengalaman dan tantangan dari Film Center inilah yang menjadi pelajaran berharga serta pendorong utama untuk merancang ulang dan mengembangkan Flix Box menjadi aplikasi yang lebih matang dan stabil."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/film-center/thumbnail.png",
+    "thumbnail": "/images/projects/film-center/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/film-center",
     "framework": ["Vue.js"],
     "type": ["Frontend"],
@@ -246,9 +246,9 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/film-center/film-center1.png",
-      "/images/projects/film-center/film-center2.png",
-      "/images/projects/film-center/film-center3.png"
+      "/images/projects/film-center/film-center1.webp",
+      "/images/projects/film-center/film-center2.webp",
+      "/images/projects/film-center/film-center3.webp"
     ]
   },
   {
@@ -259,7 +259,7 @@
       "Berbeda dari aplikasi chat sederhana, Pischat dirancang dengan integrasi database untuk menyimpan data pengguna dan riwayat percakapan secara persisten. Sistem ini dibangun menggunakan Express.js untuk sisi server, React untuk antarmuka web, dan React Native untuk aplikasi Android, menunjukkan kemampuan untuk membangun ekosistem produk yang terpadu."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/pischat/thumbnail.jpg",
+    "thumbnail": "/images/projects/pischat/thumbnail.webp",
     "framework": ["React", "Express.js", "React Native"],
     "type": ["Frontend", "Backend", "Android"],
     "category": "Hobby",
@@ -282,10 +282,10 @@
         "github_url": "https://github.com/Anomali99/pischat-web-react-js",
         "framework": "React",
         "preview": [
-          "/images/projects/pischat/pischat-frontend1.png",
-          "/images/projects/pischat/pischat-frontend2.png",
-          "/images/projects/pischat/pischat-frontend3.png",
-          "/images/projects/pischat/pischat-frontend4.png"
+          "/images/projects/pischat/pischat-frontend1.webp",
+          "/images/projects/pischat/pischat-frontend2.webp",
+          "/images/projects/pischat/pischat-frontend3.webp",
+          "/images/projects/pischat/pischat-frontend4.webp"
         ]
       },
       {
@@ -295,7 +295,7 @@
         ],
         "github_url": "https://github.com/Anomali99/pischat-mobile-react-native",
         "framework": "React Native",
-        "preview": ["/images/projects/pischat/pischat-android.jpg"]
+        "preview": ["/images/projects/pischat/pischat-android.webp"]
       }
     ]
   },
@@ -307,14 +307,14 @@
       "Pengembangannya mengacu pada sebuah panduan tutorial yang menjadi kerangka kerja untuk mempraktikkan konsep-konsep teknis. Dalam prosesnya, saya belajar secara langsung cara menginisiasi server WebSocket, mengelola koneksi dari berbagai klien, serta logika untuk menyiarkan (broadcasting) pesan ke semua pengguna yang terhubung. Proyek ini memberikan fondasi yang solid untuk memahami arsitektur aplikasi real-time."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/chat-app/thumbnail.jpg",
+    "thumbnail": "/images/projects/chat-app/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/Chat-App-Express",
     "framework": ["Express.js"],
     "type": ["Frontend", "Backend"],
     "category": "Hobby",
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
-    "preview": ["/images/projects/chat-app/chat-app.jpg"]
+    "preview": ["/images/projects/chat-app/chat-app.webp"]
   },
   {
     "title": "e-Payment Pondok Assyafiiyah",
@@ -324,7 +324,7 @@
       "Untuk mencapai hal tersebut, aplikasi ini mengimplementasikan sistem hak akses multi-level (Role-Based Access Control). Terdapat tiga tingkatan akses internal: Admin dengan kontrol penuh atas semua fitur, Bendahara Putra yang hanya dapat mengelola data santri putra, dan Bendahara Putri yang khusus menangani data santri putri. Di sisi eksternal, Wali Santri dan pengguna lain dapat secara mandiri melihat detail tunggakan, mengekspornya ke PDF, dan mengirimkan bukti pembayaran, yang kemudian akan divalidasi oleh bendahara yang berwenang."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/e-ppa/thumbnail.png",
+    "thumbnail": "/images/projects/e-ppa/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/e-PPA",
     "framework": ["React", "Flask"],
     "type": ["Frontend", "Backend"],
@@ -332,18 +332,18 @@
     "hight_light": true,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/e-ppa/e-ppa1.png",
-      "/images/projects/e-ppa/e-ppa2.png",
-      "/images/projects/e-ppa/e-ppa3.png",
-      "/images/projects/e-ppa/e-ppa4.png",
-      "/images/projects/e-ppa/e-ppa5.png",
-      "/images/projects/e-ppa/e-ppa6.png",
-      "/images/projects/e-ppa/e-ppa7.png",
-      "/images/projects/e-ppa/e-ppa8.png",
-      "/images/projects/e-ppa/e-ppa9.png",
-      "/images/projects/e-ppa/e-ppa10.png",
-      "/images/projects/e-ppa/e-ppa11.png",
-      "/images/projects/e-ppa/e-ppa12.png"
+      "/images/projects/e-ppa/e-ppa1.webp",
+      "/images/projects/e-ppa/e-ppa2.webp",
+      "/images/projects/e-ppa/e-ppa3.webp",
+      "/images/projects/e-ppa/e-ppa4.webp",
+      "/images/projects/e-ppa/e-ppa5.webp",
+      "/images/projects/e-ppa/e-ppa6.webp",
+      "/images/projects/e-ppa/e-ppa7.webp",
+      "/images/projects/e-ppa/e-ppa8.webp",
+      "/images/projects/e-ppa/e-ppa9.webp",
+      "/images/projects/e-ppa/e-ppa10.webp",
+      "/images/projects/e-ppa/e-ppa11.webp",
+      "/images/projects/e-ppa/e-ppa12.webp"
     ]
   },
   {
@@ -354,7 +354,7 @@
       "Inti dari fitur monitoringnya adalah sistem yang mampu menghasilkan tiga link pelacakan (tracking links) yang berbeda, masing-masing untuk dipasang di Website, Facebook, dan Instagram. Ketika seorang pengguna mengklik salah satu link tersebut, sistem akan mencatat sumbernya. Data yang terkumpul kemudian diolah dan disajikan dalam bentuk grafik visual pada dasbor monitoring menggunakan library Matplotlib, sehingga memberikan gambaran jelas mengenai channel mana yang paling efektif dalam mendatangkan trafik."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/living-home/thumbnail.png",
+    "thumbnail": "/images/projects/living-home/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/livinghome-django",
     "framework": ["Django"],
     "type": ["Frontend", "Backend"],
@@ -368,12 +368,12 @@
       "M Ulil Azmi"
     ],
     "preview": [
-      "/images/projects/living-home/living-home1.png",
-      "/images/projects/living-home/living-home2.png",
-      "/images/projects/living-home/living-home3.png",
-      "/images/projects/living-home/living-home4.png",
-      "/images/projects/living-home/living-home5.png",
-      "/images/projects/living-home/living-home6.png"
+      "/images/projects/living-home/living-home1.webp",
+      "/images/projects/living-home/living-home2.webp",
+      "/images/projects/living-home/living-home3.webp",
+      "/images/projects/living-home/living-home4.webp",
+      "/images/projects/living-home/living-home5.webp",
+      "/images/projects/living-home/living-home6.webp"
     ]
   },
   {
@@ -384,7 +384,7 @@
       "Tantangan utama dan inti dari proyek ini adalah implementasi konsep data persistence. Di sini, tujuannya bukan hanya sekadar menghubungkan aplikasi ke database, melainkan merancang sebuah mekanisme agar status dan data dari setiap objek dapat disimpan, dikelola, dan diambil kembali secara konsisten. Ini menjadi latihan fundamental dalam memahami bagaimana data aplikasi bisa tetap \"hidup\" (persisten) di luar runtime aplikasi, sebuah konsep kunci dalam pengembangan perangkat lunak yang lebih kompleks dan andal."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/libra-linx/thumbnail.png",
+    "thumbnail": "/images/projects/libra-linx/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/LibraLinx-Tugas-PBO",
     "framework": ["Java Swing"],
     "type": ["Desktop"],
@@ -392,21 +392,21 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/libra-linx/libra-linx1.png",
-      "/images/projects/libra-linx/libra-linx2.png",
-      "/images/projects/libra-linx/libra-linx3.png",
-      "/images/projects/libra-linx/libra-linx4.png",
-      "/images/projects/libra-linx/libra-linx5.png",
-      "/images/projects/libra-linx/libra-linx6.png",
-      "/images/projects/libra-linx/libra-linx7.png",
-      "/images/projects/libra-linx/libra-linx8.png",
-      "/images/projects/libra-linx/libra-linx9.png",
-      "/images/projects/libra-linx/libra-linx10.png",
-      "/images/projects/libra-linx/libra-linx11.png",
-      "/images/projects/libra-linx/libra-linx12.png",
-      "/images/projects/libra-linx/libra-linx13.png",
-      "/images/projects/libra-linx/libra-linx14.png",
-      "/images/projects/libra-linx/libra-linx15.png"
+      "/images/projects/libra-linx/libra-linx1.webp",
+      "/images/projects/libra-linx/libra-linx2.webp",
+      "/images/projects/libra-linx/libra-linx3.webp",
+      "/images/projects/libra-linx/libra-linx4.webp",
+      "/images/projects/libra-linx/libra-linx5.webp",
+      "/images/projects/libra-linx/libra-linx6.webp",
+      "/images/projects/libra-linx/libra-linx7.webp",
+      "/images/projects/libra-linx/libra-linx8.webp",
+      "/images/projects/libra-linx/libra-linx9.webp",
+      "/images/projects/libra-linx/libra-linx10.webp",
+      "/images/projects/libra-linx/libra-linx11.webp",
+      "/images/projects/libra-linx/libra-linx12.webp",
+      "/images/projects/libra-linx/libra-linx13.webp",
+      "/images/projects/libra-linx/libra-linx14.webp",
+      "/images/projects/libra-linx/libra-linx15.webp"
     ]
   },
   {
@@ -417,7 +417,7 @@
       "Pada proyek ini, saya mengambil langkah signifikan dari koneksi database manual dengan mengimplementasikan sebuah lapisan persistence. Pendekatan ini digunakan untuk menangani semua interaksi data secara lebih terstruktur dan efisien, meniru arsitektur aplikasi modern yang memisahkan logika bisnis dari akses data."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/cafe2k/thumbnail.png",
+    "thumbnail": "/images/projects/cafe2k/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/Cafe2K-Persistent-Version",
     "framework": ["Java Swing"],
     "type": ["Desktop"],
@@ -425,18 +425,18 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)", "Ulil Azmi Al Huraibi", "Muhammad Al Fatih"],
     "preview": [
-      "/images/projects/cafe2k/cafe2k1.png",
-      "/images/projects/cafe2k/cafe2k2.png",
-      "/images/projects/cafe2k/cafe2k3.png",
-      "/images/projects/cafe2k/cafe2k4.png",
-      "/images/projects/cafe2k/cafe2k5.png",
-      "/images/projects/cafe2k/cafe2k6.png",
-      "/images/projects/cafe2k/cafe2k7.png",
-      "/images/projects/cafe2k/cafe2k8.png",
-      "/images/projects/cafe2k/cafe2k9.png",
-      "/images/projects/cafe2k/cafe2k10.png",
-      "/images/projects/cafe2k/cafe2k11.png",
-      "/images/projects/cafe2k/cafe2k12.png"
+      "/images/projects/cafe2k/cafe2k1.webp",
+      "/images/projects/cafe2k/cafe2k2.webp",
+      "/images/projects/cafe2k/cafe2k3.webp",
+      "/images/projects/cafe2k/cafe2k4.webp",
+      "/images/projects/cafe2k/cafe2k5.webp",
+      "/images/projects/cafe2k/cafe2k6.webp",
+      "/images/projects/cafe2k/cafe2k7.webp",
+      "/images/projects/cafe2k/cafe2k8.webp",
+      "/images/projects/cafe2k/cafe2k9.webp",
+      "/images/projects/cafe2k/cafe2k10.webp",
+      "/images/projects/cafe2k/cafe2k11.webp",
+      "/images/projects/cafe2k/cafe2k12.webp"
     ]
   },
   {
@@ -447,7 +447,7 @@
       "Penekanan utama dari proyek ini adalah pada aspek konektivitas database. Tugas ini menjadi kesempatan pertama saya untuk mengimplementasikan koneksi antara antarmuka pengguna grafis (GUI) dengan database relasional. Melalui proyek ini, saya mempraktikkan secara langsung cara membuat, membaca, memperbarui, dan menghapus data (CRUD) dari dalam sebuah aplikasi Java, membangun fondasi penting untuk pemahaman arsitektur perangkat lunak yang lebih kompleks di kemudian hari."
     ],
     "year": "2024",
-    "thumbnail": "/images/projects/sumber-makmur/thumbnail.png",
+    "thumbnail": "/images/projects/sumber-makmur/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/SumberMakmur",
     "framework": ["Java Swing"],
     "type": ["Desktop"],
@@ -459,13 +459,13 @@
       "Ahmad Caesar Oktavio"
     ],
     "preview": [
-      "/images/projects/sumber-makmur/sumber-makmur1.png",
-      "/images/projects/sumber-makmur/sumber-makmur2.png",
-      "/images/projects/sumber-makmur/sumber-makmur3.png",
-      "/images/projects/sumber-makmur/sumber-makmur4.png",
-      "/images/projects/sumber-makmur/sumber-makmur5.png",
-      "/images/projects/sumber-makmur/sumber-makmur6.png",
-      "/images/projects/sumber-makmur/sumber-makmur7.png"
+      "/images/projects/sumber-makmur/sumber-makmur1.webp",
+      "/images/projects/sumber-makmur/sumber-makmur2.webp",
+      "/images/projects/sumber-makmur/sumber-makmur3.webp",
+      "/images/projects/sumber-makmur/sumber-makmur4.webp",
+      "/images/projects/sumber-makmur/sumber-makmur5.webp",
+      "/images/projects/sumber-makmur/sumber-makmur6.webp",
+      "/images/projects/sumber-makmur/sumber-makmur7.webp"
     ]
   }
 ]

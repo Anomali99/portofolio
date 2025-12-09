@@ -5,7 +5,12 @@ import {
   createRouter,
 } from "@tanstack/react-router"
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools"
-import { aboutRoute, homeRoute, projectsRoute } from "@/router/routes"
+import {
+  aboutRoute,
+  homeRoute,
+  projectDetailRoute,
+  projectsRoute,
+} from "@/router/routes"
 
 export const rootRoute = createRootRoute({
   component: () => (
@@ -17,7 +22,12 @@ export const rootRoute = createRootRoute({
 })
 
 const router = createRouter({
-  routeTree: rootRoute.addChildren([homeRoute, aboutRoute, projectsRoute]),
+  routeTree: rootRoute.addChildren([
+    homeRoute,
+    aboutRoute,
+    projectsRoute,
+    projectDetailRoute,
+  ]),
   context: {},
   defaultPreload: "intent",
   scrollRestoration: true,

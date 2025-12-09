@@ -17,9 +17,9 @@
       "name": "Universitas Islam Negeri Sunan Ampel Surabaya",
       "specialist": "S1 Sistem Informasi",
       "description": "Program studi Sistem Informasi di UIN Sunan Ampel menjadi titik nol dan awal mula perjalanan saya di dunia pemrograman. Di sinilah saya untuk pertama kalinya menyentuh dunia pemrograman dan mulai memahami bagaimana sebuah ide dapat diwujudkan menjadi kode. Setiap mata kuliah menjadi jendela baru yang membuka wawasan saya tentang logika, algoritma, dan dasar-dasar rekayasa perangkat lunak. Saya memulai dari dasar dengan rasa ingin tahu yang besar dan semangat untuk membangun keahlian saya dari nol.",
-      "start": "2025",
+      "start": "2022",
       "end": "Sekarang",
-      "image": "/images/study-uinsa.jpg"
+      "image": "/images/me/study-uinsa.webp"
     },
     {
       "name": "MA Ma'arif 7 Sunan Drajat Lamongan",
@@ -27,14 +27,14 @@
       "description": "Jenjang Madrasah Aliyah menjadi titik awal eksplorasi saya di dunia teknologi, meskipun belum menyentuh pemrograman secara langsung. Melalui kegiatan organisasi, saya mulai mendalami desain grafis menggunakan CorelDRAW, di mana saya sering membuat materi publikasi seperti poster, banner, dan majalah. Di sisi teknis, rasa ingin tahu membawa saya untuk bereksperimen dengan perangkat keras, mulai dari membongkar-pasang hingga menginstal ulang sistem operasi pada komputer sekolah yang bermasalah. Pengalaman-pengalaman praktis inilah yang menumbuhkan minat dan memberikan fondasi awal saya untuk mendalami teknologi secara lebih mendalam di kemudian hari.",
       "start": "2019",
       "end": "2022",
-      "image": "/images/study-mama7.jpg"
+      "image": "/images/me/study-mama7.webp"
     },
     {
       "name": "SMP N 1 Bungah Gresik",
       "description": "Pada jenjang ini, saya fokus membangun fondasi akademik yang esensial dan mengembangkan keterampilan sosial. Masa SMP menjadi periode penting untuk belajar disiplin, bekerja sama dalam kelompok, dan menyerap pengetahuan dasar dari berbagai bidang studi yang menjadi bekal untuk jenjang pendidikan selanjutnya.",
       "start": "2016",
       "end": "2019",
-      "image": "/images/study-smpn1.jpg"
+      "image": "/images/me/study-smpn1.webp"
     }
   ]
 }
