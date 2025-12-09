@@ -1,5 +1,10 @@
 import React, { useState } from "react"
-import { FaChevronDown, FaChevronUp, FaGithub } from "react-icons/fa"
+import {
+  FaChevronDown,
+  FaChevronUp,
+  FaExternalLinkAlt,
+  FaGithub,
+} from "react-icons/fa"
 
 const SubProjectItem: React.FC<{
   sub: any
@@ -25,6 +30,15 @@ const SubProjectItem: React.FC<{
             <FaGithub /> Repo
           </a>
         )}
+        {sub.demo_url && (
+          <a
+            href={sub.demo_url}
+            target="_blank"
+            className="flex items-center gap-1 text-xs text-(--accent) hover:underline"
+          >
+            <FaExternalLinkAlt /> Demo
+          </a>
+        )}
       </div>
       {sub.description.map((d: string, j: number) => (
         <p key={j} className="mb-1 text-justify text-sm text-(--primary)">
@@ -48,7 +62,6 @@ const SubProjectItem: React.FC<{
               </>
             )}
           </button>
-
           {showPreview && (
             <div className="mt-4 grid grid-cols-1 gap-4 md:grid-cols-2">
               {sub.preview.map((img: string, k: number) => (
