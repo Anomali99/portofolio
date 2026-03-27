@@ -20,6 +20,7 @@ import {
   SiJupyter,
   SiKotlin,
   SiLaragon,
+  SiN8N,
   SiNextdotjs,
   SiPlatformio,
   SiPostman,
@@ -67,6 +68,7 @@ export const languageIcons: Array<IconMapType> = [
   {
     title: "Dart",
     icon: SiDart,
+    visible: false,
   },
   {
     title: "C++",
@@ -120,6 +122,10 @@ export const toolsIcons: Array<IconMapType> = [
     icon: SiGooglecolab,
   },
   {
+    title: "N8N",
+    icon: SiN8N,
+  },
+  {
     title: "CorelDraw",
     icon: SiCoreldraw,
   },
@@ -169,6 +175,7 @@ export const frameworkIcons: Array<IconMapType> = [
   {
     title: "Spring Boot",
     icon: SiSpring,
+    visible: false,
   },
   {
     title: "Java Swing",
@@ -185,6 +192,7 @@ export const frameworkIcons: Array<IconMapType> = [
   {
     title: "Flutter",
     icon: SiFlutter,
+    visible: false,
   },
   {
     title: "Arduino Core",
@@ -193,5 +201,10 @@ export const frameworkIcons: Array<IconMapType> = [
   {
     title: "Tailwind CSS",
     icon: SiTailwindcss,
+  },
+  {
+    title: "N8N",
+    icon: SiN8N,
+    visible: false,
   },
 ]

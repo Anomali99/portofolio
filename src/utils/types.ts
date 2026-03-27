@@ -3,6 +3,16 @@ import type { IconType } from "react-icons"
 export interface IconMapType {
   title: string
   icon: IconType
+  visible?: boolean
+}
+
+export interface SubProjectType {
+  title: "Frontend" | "Backend" | "Android" | "Arduino" | "Desktop"
+  description: Array<string>
+  github_url?: string
+  demo_url?: string
+  preview?: Array<string>
+  framework: string
 }
 
 export interface ProjectType {
@@ -19,14 +29,24 @@ export interface ProjectType {
   category: "Hobby" | "Coursework"
   author: Array<string>
   type: Array<"Frontend" | "Backend" | "Android" | "Arduino" | "Desktop">
-  sub_project?: Array<{
-    title: "Frontend" | "Backend" | "Android" | "Arduino" | "Desktop"
-    description: Array<string>
-    github_url?: string
-    demo_url?: string
-    preview?: Array<string>
-    framework: string
-  }>
+  sub_project?: Array<SubProjectType>
+}
+
+export interface CertType {
+  name: string
+  issuer: string
+  year: string
+  description: string
+  image: string
+}
+
+export interface StudyType {
+  name: string
+  description: string
+  start: string
+  end: string
+  image: string
+  specialist?: string
 }
 
 export interface MeType {
@@ -39,12 +59,7 @@ export interface MeType {
   linkedin?: string
   facebook?: string
   instagram?: string
-  study: Array<{
-    name: string
-    description: string
-    start: string
-    end: string
-    image: string
-    specialist?: string
-  }>
+  gallery?: Array<string>
+  certifications?: Array<CertType>
+  study: Array<StudyType>
 }

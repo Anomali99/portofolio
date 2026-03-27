@@ -33,7 +33,6 @@
           "Aplikasi web ini menyediakan platform pemantauan kondisi tanaman secara real-time yang dapat diakses oleh semua pengguna terdaftar melalui dasbor interaktif. Selain itu, peran Admin diberikan kewenangan penuh untuk mengelola seluruh sistem, mulai dari memverifikasi dan mengelola akun pengguna, menambahkan serta mengonfigurasi perangkat kebun, hingga membuat tugas perawatan tanaman."
         ],
         "github_url": "https://github.com/Zen-Garden-SAD/Frontend",
-        "demo_url": "https://zengarden.anomali99.my.id",
         "framework": "React",
         "preview": [
           "/images/projects/zen-garden/zen-garden-frontend1.webp",
@@ -74,7 +73,6 @@
           "Aplikasi Android ini menyediakan platform bagi pengguna terdaftar untuk memantau kondisi tanaman secara real-time melalui dasbor yang interaktif. Fitur utamanya difokuskan pada fungsionalitas esensial, yaitu memantau data sensor, melihat dan memperbarui status tugas pribadi, serta menerima notifikasi penting."
         ],
         "github_url": "https://github.com/Zen-Garden-SAD/Mobile",
-        "demo_url": "https://github.com/Zen-Garden-SAD/Mobile/releases/tag/v1.0.0",
         "framework": "Kotlin Android",
         "preview": [
           "/images/projects/zen-garden/zen-garden-android1.webp",
@@ -108,7 +106,7 @@
     "year": "2024",
     "thumbnail": "/images/projects/trophy-vision/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/TrophyVision",
-    "demo_url": "https://github.com/Anomali99/TrophyVision/releases/tag/v1.1",
+    "demo_url": "https://github.com/Anomali99/TrophyVision/releases",
     "framework": ["Kotlin Android"],
     "type": ["Android"],
     "category": "Coursework",
@@ -132,10 +130,11 @@
     ],
     "year": "2024",
     "thumbnail": "/images/projects/weton/thumbnail.webp",
+    "demo_url": "https://weton.anomali99.my.id",
     "framework": ["Vue.js", "Java Android"],
     "type": ["Frontend", "Android"],
     "category": "Hobby",
-    "hight_light": true,
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "sub_project": [
       {
@@ -144,7 +143,7 @@
           "Ini adalah implementasi Weton dalam bentuk aplikasi Android native yang dikembangkan menggunakan Java. Aplikasi ini dirancang sebagai platform mandiri yang memungkinkan pengguna mengakses berbagai fitur perhitungan tradisional Jawa langsung dari ponsel mereka. Fitur-fitur utamanya mencakup kalender sepanjang masa untuk mencari weton, analisis kecocokan pasangan, dan kalkulator Sio, semuanya dikemas dalam antarmuka yang dioptimalkan untuk perangkat mobile."
         ],
         "github_url": "https://github.com/Anomali99/Weton",
-        "demo_url": "https://github.com/Anomali99/Weton/releases/tag/release",
+        "demo_url": "https://github.com/Anomali99/Weton/releases",
         "framework": "Java Android",
         "preview": ["/images/projects/weton/weton-android.webp"]
       },
@@ -223,6 +222,7 @@
     "year": "2025",
     "thumbnail": "/images/projects/simple-game/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/simple_game",
+    "demo_url": "https://github.com/Anomali99/simple_game/releases",
     "framework": ["Flutter"],
     "type": ["Android"],
     "category": "Hobby",
@@ -260,10 +260,11 @@
     ],
     "year": "2024",
     "thumbnail": "/images/projects/pischat/thumbnail.webp",
+    "demo_url": "https://pischat.anomali99.my.id",
     "framework": ["React", "Express.js", "React Native"],
     "type": ["Frontend", "Backend", "Android"],
     "category": "Hobby",
-    "hight_light": true,
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "sub_project": [
       {
@@ -280,6 +281,7 @@
           "Ini adalah antarmuka pengguna berbasis web untuk Pischat, yang dibangun menggunakan React. Aplikasi single-page (SPA) ini terhubung ke server WebSocket untuk menerima dan mengirim pesan secara instan. Tugasnya adalah menyajikan pengalaman chatting yang responsif dan intuitif bagi pengguna yang mengakses melalui browser."
         ],
         "github_url": "https://github.com/Anomali99/pischat-web-react-js",
+        "demo_url": "https://pischat.anomali99.my.id",
         "framework": "React",
         "preview": [
           "/images/projects/pischat/pischat-frontend1.webp",
@@ -294,6 +296,7 @@
           "Ini adalah aplikasi mobile untuk platform Android, yang dikembangkan menggunakan React Native. Sama seperti versi web, aplikasi ini terhubung ke server WebSocket yang sama untuk fungsionalitas chatting real-time. Proyek ini menunjukkan kemampuan untuk membangun pengalaman pengguna native yang terintegrasi penuh dengan ekosistem aplikasi yang lebih besar."
         ],
         "github_url": "https://github.com/Anomali99/pischat-mobile-react-native",
+        "demo_url": "https://github.com/Anomali99/pischat-mobile-react-native/releases",
         "framework": "React Native",
         "preview": ["/images/projects/pischat/pischat-android.webp"]
       }
@@ -309,6 +312,7 @@
     "year": "2024",
     "thumbnail": "/images/projects/chat-app/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/Chat-App-Express",
+    "demo_url": "https://chatapp.anomali99.my.id",
     "framework": ["Express.js"],
     "type": ["Frontend", "Backend"],
     "category": "Hobby",
@@ -326,10 +330,11 @@
     "year": "2024",
     "thumbnail": "/images/projects/e-ppa/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/e-PPA",
+    "demo_url": "https://e-ppa.anomali99.my.id",
     "framework": ["React", "Flask"],
     "type": ["Frontend", "Backend"],
     "category": "Hobby",
-    "hight_light": true,
+    "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
       "/images/projects/e-ppa/e-ppa1.webp",
@@ -356,6 +361,7 @@
     "year": "2024",
     "thumbnail": "/images/projects/living-home/thumbnail.webp",
     "github_url": "https://github.com/Anomali99/livinghome-django",
+    "demo_url": "https://livinghome.anomali99.my.id",
     "framework": ["Django"],
     "type": ["Frontend", "Backend"],
     "category": "Coursework",

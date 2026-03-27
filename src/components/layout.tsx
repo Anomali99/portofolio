@@ -9,7 +9,7 @@ const Layout: React.FC<LayoutProps> = ({ children }) => {
   return (
     <div className="no-scrollbar flex h-dvh w-dvw flex-col items-center justify-start overflow-y-auto bg-(--background)">
       <Header />
-      <div className="w-full max-w-full px-4 md:px-8 lg:max-w-7xl lg:px-0">
+      <div className="h-dvh w-full max-w-full px-4 pt-14 md:px-8 lg:max-w-7xl lg:px-0">
         {children}
       </div>
     </div>

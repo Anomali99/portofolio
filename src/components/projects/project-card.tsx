@@ -17,37 +17,39 @@ interface ProjectCardProps {
 
 const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
   return (
-    <div className="group flex flex-col overflow-hidden rounded-xl border border-(--accent)/20 bg-(--card) shadow-md transition hover:border-(--accent)/50">
-      <div className="relative aspect-video w-full overflow-hidden">
+    <div className="group flex h-full flex-col overflow-hidden rounded-2xl border border-(--primary)/10 bg-(--card) shadow-sm transition-all duration-300 hover:-translate-y-2 hover:border-(--accent)/50 hover:shadow-(--accent)/10 hover:shadow-xl">
+      <div className="relative aspect-video w-full overflow-hidden bg-(--background)/50">
         <img
           src={project.thumbnail}
           alt={project.title}
-          className="h-full w-full object-cover transition duration-500 group-hover:scale-110"
+          className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110"
         />
-        <div className="absolute inset-0 bg-gradient-to-t from-(--background) to-transparent opacity-60" />
+        <div className="absolute inset-0 bg-gradient-to-t from-(--card) via-transparent to-transparent opacity-90" />
       </div>
 
-      <div className="flex flex-1 flex-col gap-4 p-6">
-        <div className="flex items-center justify-between">
-          <h3 className="line-clamp-1 text-2xl font-bold text-(--foreground)">
+      <div className="flex flex-1 flex-col gap-4 p-5 md:p-6">
+        <div className="flex items-start justify-between gap-2">
+          <h3 className="line-clamp-2 text-xl font-bold text-(--foreground) md:text-2xl">
             {project.title}
           </h3>
-          <span className="rounded-full border border-(--primary)/30 px-2 py-0.5 text-sm text-(--primary)">
+          <span className="shrink-0 rounded-full border border-(--primary)/20 bg-(--primary)/5 px-2.5 py-1 text-xs font-semibold text-(--primary)">
             {project.year}
           </span>
         </div>
 
-        <p className="line-clamp-3 text-justify text-sm text-(--primary)">
-          {project.description[0]}
-        </p>
+        <div className="flex-1">
+          <p className="line-clamp-3 text-justify text-sm leading-relaxed text-(--primary)">
+            {project.description[0]}
+          </p>
+        </div>
 
-        <div className="mt-auto flex flex-wrap gap-2">
+        <div className="mt-2 flex flex-wrap gap-2">
           {project.framework.map((tech) => {
             const Icon = getIcon(tech)
             return (
               <div
                 key={tech}
-                className="flex items-center gap-1 rounded-md bg-(--accent)/10 px-2 py-1 text-xs text-(--accent)"
+                className="flex items-center gap-1.5 rounded-md border border-(--primary)/10 bg-(--primary)/5 px-2 py-1 text-xs text-(--primary) transition-colors hover:border-(--accent)/30 hover:bg-(--accent)/10 hover:text-(--accent)"
                 title={tech}
               >
                 {Icon && <Icon className="size-3" />}
@@ -57,15 +59,15 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           })}
         </div>
 
-        <div className="flex gap-3 border-t border-(--primary)/10 pt-4">
+        <div className="mt-2 flex flex-wrap items-center gap-3 border-t border-(--primary)/10 pt-4">
           {project.github_url && (
             <a
               href={project.github_url}
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 text-sm font-medium text-(--primary) transition hover:text-(--accent)"
+              className="flex items-center gap-1.5 text-sm font-medium text-(--primary) transition-colors hover:text-(--accent)"
             >
-              <FaGithub /> Source
+              <FaGithub className="size-4" /> Source
             </a>
           )}
           {project.demo_url && (
@@ -73,14 +75,14 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
               href={project.demo_url}
               target="_blank"
               rel="noreferrer"
-              className="flex items-center gap-2 text-sm font-medium text-(--primary) transition hover:text-(--accent)"
+              className="flex items-center gap-1.5 text-sm font-medium text-(--primary) transition-colors hover:text-(--accent)"
             >
-              <FaExternalLinkAlt /> Demo
+              <FaExternalLinkAlt className="size-3.5" /> Demo
             </a>
           )}
           <a
             href={`/project/${project.slug}`}
-            className="ml-auto flex items-center gap-2 rounded-md bg-(--accent)/20 px-3 py-1 text-sm font-medium text-(--accent) transition hover:bg-(--accent) hover:text-(--background)"
+            className="ml-auto inline-flex items-center gap-2 rounded-lg bg-(--accent)/10 px-4 py-2 text-sm font-semibold text-(--accent) transition-colors hover:bg-(--accent) hover:text-(--background)"
           >
             Selengkapnya
           </a>
