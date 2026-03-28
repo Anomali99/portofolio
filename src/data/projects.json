@@ -1,5 +1,88 @@
 [
   {
+    "title": "MyHydroponic",
+    "slug": "myhydroponic",
+    "description": [
+      "MyHydroponic adalah proyek skripsi (tugas akhir) berupa sistem terintegrasi berbasis Internet of Things (IoT) yang dirancang untuk memantau dan mengotomatisasi perawatan tanaman hidroponik. Proyek ini menggabungkan tiga pilar utama: perangkat keras mikrokontroler di lapangan, infrastruktur backend yang efisien, dan aplikasi mobile sebagai pusat kendali pengguna.",
+      "Sebagai nilai tambah dari sisi efisiensi infrastruktur, proyek ini memanfaatkan STB (Set-Top Box) bekas bersistem operasi Armbian sebagai server lokal yang tangguh namun hemat biaya. Seluruh layanan backend dikelola menggunakan Docker, mencakup MQTT Broker untuk komunikasi data IoT, MariaDB sebagai basis data, serta N8N untuk otomasi berbasis visual programming. Agar server lokal ini dapat diakses secara aman dari internet tanpa perlu IP publik, sistem ini diekspos menggunakan Cloudflare Tunnel (Cloudflared).",
+      "Dengan memanfaatkan N8N sebagai mesin orkestrasi, sistem ini memproses aliran data sensor secara otomatis. Pengguna dapat memantau kondisi air, nutrisi, dan lingkungan hidroponik secara real-time melalui aplikasi Android, sekaligus menerima notifikasi atau mengambil tindakan langsung (seperti menyalakan pompa) berdasarkan parameter yang dikirimkan oleh mikrokontroler."
+    ],
+    "year": "2026",
+    "thumbnail": "/images/projects/myhydroponic/thumbnail.webp",
+    "framework": ["Kotlin Android", "Arduino Core", "N8N"],
+    "type": ["Android", "Arduino", "Backend"],
+    "category": "Coursework",
+    "hight_light": true,
+    "author": ["Nur Fatiq (saya)"],
+    "sub_project": [
+      {
+        "title": "Android",
+        "description": [
+          "Aplikasi Android native ini dikembangkan menggunakan Kotlin untuk memberikan antarmuka pengguna yang modern dan responsif. Berfungsi sebagai dasbor utama, aplikasi ini memungkinkan pengguna untuk memantau sensor hidroponik secara real-time dan menerima peringatan otomatis terkait kondisi tanaman mereka."
+        ],
+        "github_url": "https://github.com/Anomali99/MyHydroponic-App",
+        "framework": "Kotlin Android",
+        "preview": [
+          "/images/projects/myhydroponic/android/1.webp",
+          "/images/projects/myhydroponic/android/2.webp"
+        ]
+      },
+      {
+        "title": "Arduino",
+        "description": [
+          "Bagian ini mencakup firmware yang ditulis menggunakan Arduino Core untuk mengontrol perangkat keras di kebun hidroponik. Sistem IoT ini bertugas membaca data dari berbagai sensor fisik (seperti sensor pH, nutrisi, atau suhu) dan mengontrol aktuator (seperti pompa dan valve), kemudian mengirimkan data tersebut ke server untuk diproses lebih lanjut."
+        ],
+        "github_url": "https://github.com/Anomali99/MyHydroponic-IoT",
+        "framework": "Arduino Core",
+        "preview": [
+          "/images/projects/myhydroponic/arduino/1.svg",
+          "/images/projects/myhydroponic/arduino/2.webp",
+          "/images/projects/myhydroponic/arduino/3.webp",
+          "/images/projects/myhydroponic/arduino/4.webp",
+          "/images/projects/myhydroponic/arduino/5.webp",
+          "/images/projects/myhydroponic/arduino/6.webp"
+        ]
+      },
+      {
+        "title": "Backend",
+        "description": [
+          "Sistem backend MyHydroponic dibangun di atas platform otomasi N8N. Alur kerja (workflow) ini dirancang untuk menerima aliran data dari perangkat Arduino, memproses logika bisnis seperti peringatan batas aman sensor, dan menyediakan end point (API/Webhook) yang terintegrasi langsung dengan aplikasi Android."
+        ],
+        "github_url": "https://github.com/Anomali99/MyHydroponic-Workflow",
+        "framework": "N8N",
+        "preview": [
+          "/images/projects/myhydroponic/backend/1.webp",
+          "/images/projects/myhydroponic/backend/2.webp",
+          "/images/projects/myhydroponic/backend/3.webp",
+          "/images/projects/myhydroponic/backend/4.webp",
+          "/images/projects/myhydroponic/backend/5.webp"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "TikrarTime",
+    "slug": "tikrartime",
+    "description": [
+      "TikrarTime adalah aplikasi Android native yang dikembangkan sebagai proyek hobi menggunakan Kotlin, berfokus pada manajemen waktu dan pelacakan rutinitas. Mengambil inspirasi dari kata 'Tikrar' yang berarti pengulangan (sering dikaitkan dengan metode hafalan atau muraja'ah), aplikasi ini dirancang khusus untuk membantu pengguna membangun konsistensi dalam aktivitas yang membutuhkan repetisi harian.",
+      "Aplikasi ini menyediakan antarmuka yang bersih dan intuitif bagi pengguna untuk mencatat progres dan mengevaluasi kedisiplinan mereka dari waktu ke waktu. Dengan arsitektur pengembangan yang modern, TikrarTime menawarkan performa yang stabil dan pengalaman pengguna yang mulus untuk menjaga produktivitas langsung dari genggaman.",
+      "TikrarTime dilengkapi dengan berbagai fitur fungsional yang sangat mendukung rutinitas, seperti Floating Timer overlay untuk kemudahan multitasking dengan aplikasi Quran Digital, mode ganda (Stopwatch dan Countdown), serta manajemen riwayat komprehensif. Selain itu, aplikasi ini memotivasi pengguna melalui statistik XP dan Streak harian yang bisa dibagikan, mendukung Backup & Restore data (JSON), perlindungan Auto-Save saat aplikasi tertutup paksa, App Widget responsif yang menyesuaikan tema sistem, Quick Settings Tile untuk akses instan, hingga tema eksklusif 'Royal Blue & Gold' yang tersembunyi sebagai pencapaian."
+    ],
+    "year": "2026",
+    "thumbnail": "/images/projects/tikrartime/thumbnail.webp",
+    "github_url": "https://github.com/Anomali99/TikrarTime",
+    "demo_url": "https://github.com/Anomali99/TikrarTime/releases",
+    "framework": ["Kotlin Android"],
+    "type": ["Android"],
+    "category": "Hobby",
+    "hight_light": true,
+    "author": ["Nur Fatiq (saya)"],
+    "preview": [
+      "/images/projects/tikrartime/android/1.webp",
+      "/images/projects/tikrartime/android/2.webp"
+    ]
+  },
+  {
     "title": "Zen Garden",
     "slug": "zen-garden",
     "description": [
@@ -35,36 +118,36 @@
         "github_url": "https://github.com/Zen-Garden-SAD/Frontend",
         "framework": "React",
         "preview": [
-          "/images/projects/zen-garden/zen-garden-frontend1.webp",
-          "/images/projects/zen-garden/zen-garden-frontend2.webp",
-          "/images/projects/zen-garden/zen-garden-frontend3.webp",
-          "/images/projects/zen-garden/zen-garden-frontend4.webp",
-          "/images/projects/zen-garden/zen-garden-frontend5.webp",
-          "/images/projects/zen-garden/zen-garden-frontend6.webp",
-          "/images/projects/zen-garden/zen-garden-frontend7.webp",
-          "/images/projects/zen-garden/zen-garden-frontend8.webp",
-          "/images/projects/zen-garden/zen-garden-frontend9.webp",
-          "/images/projects/zen-garden/zen-garden-frontend10.webp",
-          "/images/projects/zen-garden/zen-garden-frontend11.webp",
-          "/images/projects/zen-garden/zen-garden-frontend12.webp",
-          "/images/projects/zen-garden/zen-garden-frontend13.webp",
-          "/images/projects/zen-garden/zen-garden-frontend14.webp",
-          "/images/projects/zen-garden/zen-garden-frontend15.webp",
-          "/images/projects/zen-garden/zen-garden-frontend16.webp",
-          "/images/projects/zen-garden/zen-garden-frontend17.webp",
-          "/images/projects/zen-garden/zen-garden-frontend18.webp",
-          "/images/projects/zen-garden/zen-garden-frontend19.webp",
-          "/images/projects/zen-garden/zen-garden-frontend20.webp",
-          "/images/projects/zen-garden/zen-garden-frontend21.webp",
-          "/images/projects/zen-garden/zen-garden-frontend22.webp",
-          "/images/projects/zen-garden/zen-garden-frontend23.webp",
-          "/images/projects/zen-garden/zen-garden-frontend24.webp",
-          "/images/projects/zen-garden/zen-garden-frontend25.webp",
-          "/images/projects/zen-garden/zen-garden-frontend26.webp",
-          "/images/projects/zen-garden/zen-garden-frontend27.webp",
-          "/images/projects/zen-garden/zen-garden-frontend28.webp",
-          "/images/projects/zen-garden/zen-garden-frontend29.webp",
-          "/images/projects/zen-garden/zen-garden-frontend30.webp"
+          "/images/projects/zen-garden/frontend/1.webp",
+          "/images/projects/zen-garden/frontend/2.webp",
+          "/images/projects/zen-garden/frontend/3.webp",
+          "/images/projects/zen-garden/frontend/4.webp",
+          "/images/projects/zen-garden/frontend/5.webp",
+          "/images/projects/zen-garden/frontend/6.webp",
+          "/images/projects/zen-garden/frontend/7.webp",
+          "/images/projects/zen-garden/frontend/8.webp",
+          "/images/projects/zen-garden/frontend/9.webp",
+          "/images/projects/zen-garden/frontend/10.webp",
+          "/images/projects/zen-garden/frontend/11.webp",
+          "/images/projects/zen-garden/frontend/12.webp",
+          "/images/projects/zen-garden/frontend/13.webp",
+          "/images/projects/zen-garden/frontend/14.webp",
+          "/images/projects/zen-garden/frontend/15.webp",
+          "/images/projects/zen-garden/frontend/16.webp",
+          "/images/projects/zen-garden/frontend/17.webp",
+          "/images/projects/zen-garden/frontend/18.webp",
+          "/images/projects/zen-garden/frontend/19.webp",
+          "/images/projects/zen-garden/frontend/20.webp",
+          "/images/projects/zen-garden/frontend/21.webp",
+          "/images/projects/zen-garden/frontend/22.webp",
+          "/images/projects/zen-garden/frontend/23.webp",
+          "/images/projects/zen-garden/frontend/24.webp",
+          "/images/projects/zen-garden/frontend/25.webp",
+          "/images/projects/zen-garden/frontend/26.webp",
+          "/images/projects/zen-garden/frontend/27.webp",
+          "/images/projects/zen-garden/frontend/28.webp",
+          "/images/projects/zen-garden/frontend/29.webp",
+          "/images/projects/zen-garden/frontend/30.webp"
         ]
       },
       {
@@ -75,8 +158,8 @@
         "github_url": "https://github.com/Zen-Garden-SAD/Mobile",
         "framework": "Kotlin Android",
         "preview": [
-          "/images/projects/zen-garden/zen-garden-android1.webp",
-          "/images/projects/zen-garden/zen-garden-android2.webp"
+          "/images/projects/zen-garden/android/1.webp",
+          "/images/projects/zen-garden/android/2.webp"
         ]
       },
       {
@@ -87,11 +170,11 @@
         "github_url": "https://github.com/Zen-Garden-SAD/IoT",
         "framework": "Arduino Core",
         "preview": [
-          "/images/projects/zen-garden/zen-garden-arduino1.webp",
-          "/images/projects/zen-garden/zen-garden-arduino2.webp",
-          "/images/projects/zen-garden/zen-garden-arduino3.webp",
-          "/images/projects/zen-garden/zen-garden-arduino4.webp",
-          "/images/projects/zen-garden/zen-garden-arduino5.webp"
+          "/images/projects/zen-garden/arduino/1.webp",
+          "/images/projects/zen-garden/arduino/2.webp",
+          "/images/projects/zen-garden/arduino/3.webp",
+          "/images/projects/zen-garden/arduino/4.webp",
+          "/images/projects/zen-garden/arduino/5.webp"
         ]
       }
     ]
@@ -119,7 +202,7 @@
       "Fauziah Afrisa N",
       "Irkhamnawan Dikmanta Putra"
     ],
-    "preview": ["/images/projects/trophy-vision/trophy-vision.webp"]
+    "preview": ["/images/projects/trophy-vision/android/1.webp"]
   },
   {
     "title": "Weton",
@@ -145,7 +228,7 @@
         "github_url": "https://github.com/Anomali99/Weton",
         "demo_url": "https://github.com/Anomali99/Weton/releases",
         "framework": "Java Android",
-        "preview": ["/images/projects/weton/weton-android.webp"]
+        "preview": ["/images/projects/weton/android/1.webp"]
       },
       {
         "title": "Frontend",
@@ -156,11 +239,11 @@
         "demo_url": "https://weton.anomali99.my.id",
         "framework": "Vue.js",
         "preview": [
-          "/images/projects/weton/weton-frontend1.webp",
-          "/images/projects/weton/weton-frontend2.webp",
-          "/images/projects/weton/weton-frontend3.webp",
-          "/images/projects/weton/weton-frontend4.webp",
-          "/images/projects/weton/weton-frontend5.webp"
+          "/images/projects/weton/frontend/1.webp",
+          "/images/projects/weton/frontend/2.webp",
+          "/images/projects/weton/frontend/3.webp",
+          "/images/projects/weton/frontend/4.webp",
+          "/images/projects/weton/frontend/5.webp"
         ]
       }
     ]
@@ -181,11 +264,11 @@
     "hight_light": true,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/flix-box/flix-box1.webp",
-      "/images/projects/flix-box/flix-box2.webp",
-      "/images/projects/flix-box/flix-box3.webp",
-      "/images/projects/flix-box/flix-box4.webp",
-      "/images/projects/flix-box/flix-box5.webp"
+      "/images/projects/flix-box/frontend/1.webp",
+      "/images/projects/flix-box/frontend/2.webp",
+      "/images/projects/flix-box/frontend/3.webp",
+      "/images/projects/flix-box/frontend/4.webp",
+      "/images/projects/flix-box/frontend/5.webp"
     ]
   },
   {
@@ -205,11 +288,11 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/mapping-telemung/mapping-telemung1.webp",
-      "/images/projects/mapping-telemung/mapping-telemung2.webp",
-      "/images/projects/mapping-telemung/mapping-telemung3.webp",
-      "/images/projects/mapping-telemung/mapping-telemung4.webp",
-      "/images/projects/mapping-telemung/mapping-telemung5.webp"
+      "/images/projects/mapping-telemung/frontend/1.webp",
+      "/images/projects/mapping-telemung/frontend/2.webp",
+      "/images/projects/mapping-telemung/frontend/3.webp",
+      "/images/projects/mapping-telemung/frontend/4.webp",
+      "/images/projects/mapping-telemung/frontend/5.webp"
     ]
   },
   {
@@ -228,7 +311,7 @@
     "category": "Hobby",
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
-    "preview": ["/images/projects/simple-game/simple-game.webp"]
+    "preview": ["/images/projects/simple-game/android/1.webp"]
   },
   {
     "title": "Film Center",
@@ -246,9 +329,9 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/film-center/film-center1.webp",
-      "/images/projects/film-center/film-center2.webp",
-      "/images/projects/film-center/film-center3.webp"
+      "/images/projects/film-center/frontend/1.webp",
+      "/images/projects/film-center/frontend/2.webp",
+      "/images/projects/film-center/frontend/3.webp"
     ]
   },
   {
@@ -284,10 +367,10 @@
         "demo_url": "https://pischat.anomali99.my.id",
         "framework": "React",
         "preview": [
-          "/images/projects/pischat/pischat-frontend1.webp",
-          "/images/projects/pischat/pischat-frontend2.webp",
-          "/images/projects/pischat/pischat-frontend3.webp",
-          "/images/projects/pischat/pischat-frontend4.webp"
+          "/images/projects/pischat/frontend/1.webp",
+          "/images/projects/pischat/frontend/2.webp",
+          "/images/projects/pischat/frontend/3.webp",
+          "/images/projects/pischat/frontend/4.webp"
         ]
       },
       {
@@ -298,7 +381,7 @@
         "github_url": "https://github.com/Anomali99/pischat-mobile-react-native",
         "demo_url": "https://github.com/Anomali99/pischat-mobile-react-native/releases",
         "framework": "React Native",
-        "preview": ["/images/projects/pischat/pischat-android.webp"]
+        "preview": ["/images/projects/pischat/android/1.webp"]
       }
     ]
   },
@@ -318,7 +401,7 @@
     "category": "Hobby",
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
-    "preview": ["/images/projects/chat-app/chat-app.webp"]
+    "preview": ["/images/projects/chat-app/backend/1.webp"]
   },
   {
     "title": "e-Payment Pondok Assyafiiyah",
@@ -337,18 +420,18 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/e-ppa/e-ppa1.webp",
-      "/images/projects/e-ppa/e-ppa2.webp",
-      "/images/projects/e-ppa/e-ppa3.webp",
-      "/images/projects/e-ppa/e-ppa4.webp",
-      "/images/projects/e-ppa/e-ppa5.webp",
-      "/images/projects/e-ppa/e-ppa6.webp",
-      "/images/projects/e-ppa/e-ppa7.webp",
-      "/images/projects/e-ppa/e-ppa8.webp",
-      "/images/projects/e-ppa/e-ppa9.webp",
-      "/images/projects/e-ppa/e-ppa10.webp",
-      "/images/projects/e-ppa/e-ppa11.webp",
-      "/images/projects/e-ppa/e-ppa12.webp"
+      "/images/projects/e-ppa/frontend/1.webp",
+      "/images/projects/e-ppa/frontend/2.webp",
+      "/images/projects/e-ppa/frontend/3.webp",
+      "/images/projects/e-ppa/frontend/4.webp",
+      "/images/projects/e-ppa/frontend/5.webp",
+      "/images/projects/e-ppa/frontend/6.webp",
+      "/images/projects/e-ppa/frontend/7.webp",
+      "/images/projects/e-ppa/frontend/8.webp",
+      "/images/projects/e-ppa/frontend/9.webp",
+      "/images/projects/e-ppa/frontend/10.webp",
+      "/images/projects/e-ppa/frontend/11.webp",
+      "/images/projects/e-ppa/frontend/12.webp"
     ]
   },
   {
@@ -374,12 +457,12 @@
       "M Ulil Azmi"
     ],
     "preview": [
-      "/images/projects/living-home/living-home1.webp",
-      "/images/projects/living-home/living-home2.webp",
-      "/images/projects/living-home/living-home3.webp",
-      "/images/projects/living-home/living-home4.webp",
-      "/images/projects/living-home/living-home5.webp",
-      "/images/projects/living-home/living-home6.webp"
+      "/images/projects/living-home/backend/1.webp",
+      "/images/projects/living-home/backend/2.webp",
+      "/images/projects/living-home/backend/3.webp",
+      "/images/projects/living-home/backend/4.webp",
+      "/images/projects/living-home/backend/5.webp",
+      "/images/projects/living-home/backend/6.webp"
     ]
   },
   {
@@ -398,21 +481,21 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)"],
     "preview": [
-      "/images/projects/libra-linx/libra-linx1.webp",
-      "/images/projects/libra-linx/libra-linx2.webp",
-      "/images/projects/libra-linx/libra-linx3.webp",
-      "/images/projects/libra-linx/libra-linx4.webp",
-      "/images/projects/libra-linx/libra-linx5.webp",
-      "/images/projects/libra-linx/libra-linx6.webp",
-      "/images/projects/libra-linx/libra-linx7.webp",
-      "/images/projects/libra-linx/libra-linx8.webp",
-      "/images/projects/libra-linx/libra-linx9.webp",
-      "/images/projects/libra-linx/libra-linx10.webp",
-      "/images/projects/libra-linx/libra-linx11.webp",
-      "/images/projects/libra-linx/libra-linx12.webp",
-      "/images/projects/libra-linx/libra-linx13.webp",
-      "/images/projects/libra-linx/libra-linx14.webp",
-      "/images/projects/libra-linx/libra-linx15.webp"
+      "/images/projects/libra-linx/desktop/1.webp",
+      "/images/projects/libra-linx/desktop/2.webp",
+      "/images/projects/libra-linx/desktop/3.webp",
+      "/images/projects/libra-linx/desktop/4.webp",
+      "/images/projects/libra-linx/desktop/5.webp",
+      "/images/projects/libra-linx/desktop/6.webp",
+      "/images/projects/libra-linx/desktop/7.webp",
+      "/images/projects/libra-linx/desktop/8.webp",
+      "/images/projects/libra-linx/desktop/9.webp",
+      "/images/projects/libra-linx/desktop/10.webp",
+      "/images/projects/libra-linx/desktop/11.webp",
+      "/images/projects/libra-linx/desktop/12.webp",
+      "/images/projects/libra-linx/desktop/13.webp",
+      "/images/projects/libra-linx/desktop/14.webp",
+      "/images/projects/libra-linx/desktop/15.webp"
     ]
   },
   {
@@ -431,18 +514,18 @@
     "hight_light": false,
     "author": ["Nur Fatiq (saya)", "Ulil Azmi Al Huraibi", "Muhammad Al Fatih"],
     "preview": [
-      "/images/projects/cafe2k/cafe2k1.webp",
-      "/images/projects/cafe2k/cafe2k2.webp",
-      "/images/projects/cafe2k/cafe2k3.webp",
-      "/images/projects/cafe2k/cafe2k4.webp",
-      "/images/projects/cafe2k/cafe2k5.webp",
-      "/images/projects/cafe2k/cafe2k6.webp",
-      "/images/projects/cafe2k/cafe2k7.webp",
-      "/images/projects/cafe2k/cafe2k8.webp",
-      "/images/projects/cafe2k/cafe2k9.webp",
-      "/images/projects/cafe2k/cafe2k10.webp",
-      "/images/projects/cafe2k/cafe2k11.webp",
-      "/images/projects/cafe2k/cafe2k12.webp"
+      "/images/projects/cafe2k/desktop/1.webp",
+      "/images/projects/cafe2k/desktop/2.webp",
+      "/images/projects/cafe2k/desktop/3.webp",
+      "/images/projects/cafe2k/desktop/4.webp",
+      "/images/projects/cafe2k/desktop/5.webp",
+      "/images/projects/cafe2k/desktop/6.webp",
+      "/images/projects/cafe2k/desktop/7.webp",
+      "/images/projects/cafe2k/desktop/8.webp",
+      "/images/projects/cafe2k/desktop/9.webp",
+      "/images/projects/cafe2k/desktop/10.webp",
+      "/images/projects/cafe2k/desktop/11.webp",
+      "/images/projects/cafe2k/desktop/12.webp"
     ]
   },
   {
@@ -465,13 +548,13 @@
       "Ahmad Caesar Oktavio"
     ],
     "preview": [
-      "/images/projects/sumber-makmur/sumber-makmur1.webp",
-      "/images/projects/sumber-makmur/sumber-makmur2.webp",
-      "/images/projects/sumber-makmur/sumber-makmur3.webp",
-      "/images/projects/sumber-makmur/sumber-makmur4.webp",
-      "/images/projects/sumber-makmur/sumber-makmur5.webp",
-      "/images/projects/sumber-makmur/sumber-makmur6.webp",
-      "/images/projects/sumber-makmur/sumber-makmur7.webp"
+      "/images/projects/sumber-makmur/desktop/1.webp",
+      "/images/projects/sumber-makmur/desktop/2.webp",
+      "/images/projects/sumber-makmur/desktop/3.webp",
+      "/images/projects/sumber-makmur/desktop/4.webp",
+      "/images/projects/sumber-makmur/desktop/5.webp",
+      "/images/projects/sumber-makmur/desktop/6.webp",
+      "/images/projects/sumber-makmur/desktop/7.webp"
     ]
   }
 ]
