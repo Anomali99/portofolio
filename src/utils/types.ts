@@ -15,6 +15,16 @@ export interface SubProjectType {
   framework: string
 }
 
+export interface DocumentType {
+  title: string
+  url: string
+}
+
+export interface AuthorType {
+  name: string
+  url?: string
+}
+
 export interface ProjectType {
   title: string
   slug: string
@@ -25,9 +35,10 @@ export interface ProjectType {
   github_url?: string
   demo_url?: string
   preview?: Array<string>
+  documents?: Array<DocumentType>
   framework: Array<string>
   category: "Hobby" | "Coursework"
-  author: Array<string>
+  author: Array<AuthorType>
   type: Array<"Frontend" | "Backend" | "Android" | "Arduino" | "Desktop">
   sub_project?: Array<SubProjectType>
 }

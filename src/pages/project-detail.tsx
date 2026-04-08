@@ -1,6 +1,12 @@
 import React, { useEffect, useState } from "react"
 import { useParams } from "@tanstack/react-router"
-import { FaArrowLeft, FaExternalLinkAlt, FaGithub } from "react-icons/fa"
+import {
+  FaArrowLeft,
+  FaExternalLinkAlt,
+  FaFileAlt,
+  FaGithub,
+  FaUserAlt,
+} from "react-icons/fa"
 import type { IconType } from "react-icons"
 import Layout from "@/components/layout"
 import { getProjectBySlug } from "@/data"
@@ -101,6 +107,41 @@ const ProjectDetailPage: React.FC = () => {
                 </span>
               ))}
             </div>
+
+            {project.author.length > 0 && (
+              <div
+                className="scroll-reveal mt-2 flex flex-col gap-2 sm:flex-row sm:items-center"
+                style={{ transitionDelay: "250ms" }}
+              >
+                <span className="text-sm font-medium text-(--primary)">
+                  Tim Pengembang:
+                </span>
+                <div className="flex flex-wrap gap-2">
+                  {project.author.map((auth, i) =>
+                    auth.url ? (
+                      <a
+                        key={i}
+                        href={auth.url}
+                        target="_blank"
+                        rel="noreferrer"
+                        className="group flex items-center gap-1.5 rounded-full border border-(--primary)/20 bg-(--primary)/5 px-3 py-1 text-xs font-medium text-(--foreground) transition hover:border-(--accent)/50 hover:bg-(--accent)/10 hover:text-(--accent)"
+                      >
+                        <FaUserAlt className="size-3 text-(--primary) transition group-hover:text-(--accent)" />{" "}
+                        {auth.name}
+                      </a>
+                    ) : (
+                      <span
+                        key={i}
+                        className="flex items-center gap-1.5 rounded-full border border-(--primary)/10 bg-(--primary)/5 px-3 py-1 text-xs font-medium text-(--foreground)"
+                      >
+                        <FaUserAlt className="size-3 text-(--primary)" />{" "}
+                        {auth.name}
+                      </span>
+                    ),
+                  )}
+                </div>
+              </div>
+            )}
           </div>
 
           <div
@@ -123,6 +164,36 @@ const ProjectDetailPage: React.FC = () => {
               <p key={i}>{desc}</p>
             ))}
           </div>
+
+          {project.documents && project.documents.length > 0 && (
+            <div className="mt-4">
+              <h3
+                className="scroll-reveal mb-6 text-2xl font-bold text-(--foreground) md:text-3xl"
+                style={{ transitionDelay: "0ms" }}
+              >
+                Dokumen Pendukung
+              </h3>
+              <div className="flex flex-wrap gap-4">
+                {project.documents.map((doc: any, i: number) => (
+                  <a
+                    key={i}
+                    href={doc.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="scroll-reveal-scale flex w-full items-center gap-3 rounded-xl border border-blue-500/30 bg-blue-500/5 px-5 py-4 transition-all hover:-translate-y-1 hover:bg-blue-500/10 hover:shadow-md hover:shadow-blue-500/10 sm:w-auto"
+                    style={{ transitionDelay: `${i * 100}ms` }}
+                  >
+                    <div className="rounded-full bg-blue-500/20 p-2 text-blue-600 dark:text-blue-400">
+                      <FaFileAlt className="size-5" />
+                    </div>
+                    <span className="font-semibold text-blue-600 dark:text-blue-400">
+                      {doc.title}
+                    </span>
+                  </a>
+                ))}
+              </div>
+            </div>
+          )}
 
           <div className="mt-4">
             <h3

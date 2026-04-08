@@ -13,7 +13,7 @@
     "type": ["Android", "Arduino", "Backend"],
     "category": "Coursework",
     "hight_light": true,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "sub_project": [
       {
         "title": "Android",
@@ -76,7 +76,7 @@
     "type": ["Android"],
     "category": "Hobby",
     "hight_light": true,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": [
       "/images/projects/tikrartime/android/1.webp",
       "/images/projects/tikrartime/android/2.webp"
@@ -96,10 +96,29 @@
     "type": ["Frontend", "Backend", "Android", "Arduino"],
     "category": "Coursework",
     "hight_light": true,
+    "preview": ["/images/projects/zen-garden/poster.webp"],
+    "documents": [
+      {
+        "title": "Software Requirements Specification (SRS)",
+        "url": "https://drive.google.com/file/d/1n7CniPUFYLVfntCaHFBEeDw3YnNY1bv_/view?usp=sharing"
+      },
+      {
+        "title": "Report Development (RD)",
+        "url": "https://drive.google.com/file/d/1GWJKPcPReE1Eg4zaH-jLogfkQVanLRzO/view?usp=sharing"
+      },
+      {
+        "title": "Laporan Akhir Zen Garden",
+        "url": "https://drive.google.com/file/d/1ZHE3EZUzR7uCqOV-35wH-79-HfMwVjkV/view?usp=sharing"
+      },
+      {
+        "title": "Poster Zen Garden",
+        "url": "https://drive.google.com/file/d/1mgkflZhNGkczJ5hWaVEy_UMjG6_r4IjC/view?usp=sharing"
+      }
+    ],
     "author": [
-      "Nur Fatiq (saya)",
-      "Agustina Latifatul Mutmainnah",
-      "Egty aulia Ramadhant"
+      { "name": "Nur Fatiq (saya)", "url": "/" },
+      { "name": "Agustina Latifatul Mutmainnah" },
+      { "name": "Egty aulia Ramadhant" }
     ],
     "sub_project": [
       {
@@ -195,12 +214,12 @@
     "category": "Coursework",
     "hight_light": true,
     "author": [
-      "Nur Fatiq (saya)",
-      "Afreza Restu F",
-      "Muhammad Rifqi Naufal Irsyad",
-      "Novan Putra Pratama",
-      "Fauziah Afrisa N",
-      "Irkhamnawan Dikmanta Putra"
+      { "name": "Nur Fatiq (saya)", "url": "/" },
+      { "name": "Afreza Restu F" },
+      { "name": "Muhammad Rifqi Naufal Irsyad" },
+      { "name": "Novan Putra Pratama" },
+      { "name": "Fauziah Afrisa N" },
+      { "name": "Irkhamnawan Dikmanta Putra" }
     ],
     "preview": ["/images/projects/trophy-vision/android/1.webp"]
   },
@@ -218,7 +237,7 @@
     "type": ["Frontend", "Android"],
     "category": "Hobby",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "sub_project": [
       {
         "title": "Android",
@@ -262,7 +281,7 @@
     "type": ["Frontend"],
     "category": "Hobby",
     "hight_light": true,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": [
       "/images/projects/flix-box/frontend/1.webp",
       "/images/projects/flix-box/frontend/2.webp",
@@ -286,7 +305,7 @@
     "type": ["Frontend"],
     "category": "Hobby",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": [
       "/images/projects/mapping-telemung/frontend/1.webp",
       "/images/projects/mapping-telemung/frontend/2.webp",
@@ -310,7 +329,7 @@
     "type": ["Android"],
     "category": "Hobby",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": ["/images/projects/simple-game/android/1.webp"]
   },
   {
@@ -327,7 +346,7 @@
     "type": ["Frontend"],
     "category": "Hobby",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": [
       "/images/projects/film-center/frontend/1.webp",
       "/images/projects/film-center/frontend/2.webp",
@@ -348,7 +367,7 @@
     "type": ["Frontend", "Backend", "Android"],
     "category": "Hobby",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "sub_project": [
       {
         "title": "Backend",
@@ -400,7 +419,7 @@
     "type": ["Frontend", "Backend"],
     "category": "Hobby",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": ["/images/projects/chat-app/backend/1.webp"]
   },
   {
@@ -418,7 +437,7 @@
     "type": ["Frontend", "Backend"],
     "category": "Hobby",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": [
       "/images/projects/e-ppa/frontend/1.webp",
       "/images/projects/e-ppa/frontend/2.webp",
@@ -450,7 +469,7 @@
     "category": "Coursework",
     "hight_light": false,
     "author": [
-      "Nur Fatiq (saya)",
+      { "name": "Nur Fatiq (saya)", "url": "/" },
       "Muhammad Saiful Arifin",
       "M Ravly Dwi Septian",
       "Mochammad Nasruddin Zuhri",
@@ -479,7 +498,7 @@
     "type": ["Desktop"],
     "category": "Coursework",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)"],
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": [
       "/images/projects/libra-linx/desktop/1.webp",
       "/images/projects/libra-linx/desktop/2.webp",
@@ -512,7 +531,11 @@
     "type": ["Desktop"],
     "category": "Coursework",
     "hight_light": false,
-    "author": ["Nur Fatiq (saya)", "Ulil Azmi Al Huraibi", "Muhammad Al Fatih"],
+    "author": [
+      { "name": "Nur Fatiq (saya)", "url": "/" },
+      "Ulil Azmi Al Huraibi",
+      "Muhammad Al Fatih"
+    ],
     "preview": [
       "/images/projects/cafe2k/desktop/1.webp",
       "/images/projects/cafe2k/desktop/2.webp",
@@ -543,9 +566,9 @@
     "category": "Coursework",
     "hight_light": false,
     "author": [
-      "Nur Fatiq (saya)",
-      "Fahmi Surya Hidayat",
-      "Ahmad Caesar Oktavio"
+      { "name": "Nur Fatiq (saya)", "url": "/" },
+      { "name": "Fahmi Surya Hidayat" },
+      { "name": "Ahmad Caesar Oktavio" }
     ],
     "preview": [
       "/images/projects/sumber-makmur/desktop/1.webp",

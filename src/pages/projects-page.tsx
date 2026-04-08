@@ -24,7 +24,18 @@ const ProjectsPage: React.FC = () => {
           project.type.includes(selectedCategory as any),
         )
 
-  const highlightedProjects = allProjects.filter((p) => p.hight_light)
+  const highlightedProjects = allProjects
+    .filter((p) => p.hight_light)
+    .sort((a, b) => {
+      const aHasDocs = a.documents && a.documents.length > 0 ? 1 : 0
+      const bHasDocs = b.documents && b.documents.length > 0 ? 1 : 0
+
+      if (aHasDocs !== bHasDocs) {
+        return bHasDocs - aHasDocs
+      }
+
+      return parseInt(b.year) - parseInt(a.year)
+    })
 
   useEffect(() => {
     const observer = new IntersectionObserver(

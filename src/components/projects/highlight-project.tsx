@@ -1,5 +1,5 @@
 import React, { useEffect } from "react"
-import { FaChevronLeft, FaChevronRight } from "react-icons/fa"
+import { FaChevronLeft, FaChevronRight, FaFileAlt } from "react-icons/fa"
 import type { ProjectType } from "@/utils/types"
 
 interface HighlightProjectProps {
@@ -56,9 +56,17 @@ const HighlightProject: React.FC<HighlightProjectProps> = ({
         className="animate-fade-in flex w-full flex-col justify-between p-6 md:w-1/2 md:p-8"
       >
         <div>
-          <span className="mb-2 inline-block rounded-full bg-(--accent)/10 px-3 py-1 text-xs font-semibold text-(--accent)">
-            {activeHighlight.year} • {activeHighlight.category}
-          </span>
+          <div className="mb-2 flex flex-wrap items-center gap-2">
+            <span className="inline-block rounded-full bg-(--accent)/10 px-3 py-1 text-xs font-semibold text-(--accent)">
+              {activeHighlight.year} • {activeHighlight.category}
+            </span>
+            {activeHighlight.documents &&
+              activeHighlight.documents.length > 0 && (
+                <span className="flex items-center gap-1.5 rounded-full border border-blue-500/30 bg-blue-500/10 px-3 py-1 text-xs font-bold text-blue-600 dark:text-blue-400">
+                  <FaFileAlt /> Dokumen
+                </span>
+              )}
+          </div>
           <h3 className="mb-3 text-2xl font-bold text-(--foreground) md:text-3xl">
             {activeHighlight.title}
           </h3>

@@ -1,5 +1,5 @@
 import React from "react"
-import { FaExternalLinkAlt, FaGithub } from "react-icons/fa"
+import { FaExternalLinkAlt, FaFileAlt, FaGithub } from "react-icons/fa"
 import type { IconType } from "react-icons"
 import type { ProjectType } from "@/utils/types"
 import { frameworkIcons, languageIcons, toolsIcons } from "@/utils/icons-map"
@@ -32,9 +32,19 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
           <h3 className="line-clamp-2 text-xl font-bold text-(--foreground) md:text-2xl">
             {project.title}
           </h3>
-          <span className="shrink-0 rounded-full border border-(--primary)/20 bg-(--primary)/5 px-2.5 py-1 text-xs font-semibold text-(--primary)">
-            {project.year}
-          </span>
+          <div className="flex shrink-0 flex-col items-end gap-1.5">
+            <span className="rounded-full border border-(--primary)/20 bg-(--primary)/5 px-2.5 py-1 text-xs font-semibold text-(--primary)">
+              {project.year}
+            </span>
+            {project.documents && project.documents.length > 0 && (
+              <span
+                className="flex items-center gap-1 rounded-full border border-blue-500/30 bg-blue-500/10 px-2 py-0.5 text-[10px] font-bold text-blue-600 dark:text-blue-400"
+                title="Dokumen Proyek Tersedia"
+              >
+                <FaFileAlt /> Docs
+              </span>
+            )}
+          </div>
         </div>
 
         <div className="flex-1">

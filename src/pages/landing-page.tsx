@@ -39,7 +39,7 @@ const LandingPage: React.FC = () => {
     <Layout>
       <div
         ref={scrollContainerRef}
-        className="no-scrollbar mx-auto h-full w-full max-w-7xl snap-y snap-mandatory overflow-y-scroll scroll-auto px-6 md:px-12 lg:px-0"
+        className="no-scrollbar mx-auto h-full w-full max-w-7xl snap-y snap-mandatory overflow-y-scroll scroll-auto px-6 md:px-16 xl:px-0"
       >
         <section
           id="home"
