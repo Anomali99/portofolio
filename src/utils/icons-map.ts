@@ -68,7 +68,6 @@ export const languageIcons: Array<IconMapType> = [
   {
     title: "Dart",
     icon: SiDart,
-    visible: false,
   },
   {
     title: "C++",
@@ -192,7 +191,6 @@ export const frameworkIcons: Array<IconMapType> = [
   {
     title: "Flutter",
     icon: SiFlutter,
-    visible: false,
   },
   {
     title: "Arduino Core",

@@ -38,7 +38,7 @@ const Header: React.FC = () => {
       <div className="mx-auto flex w-full max-w-7xl items-center justify-between">
         <div className="flex items-center gap-10">
           <h1 className="text-2xl font-semibold text-(--foreground)">
-            Anomali99
+            <a href="/">Anomali99</a>
           </h1>
 
           <nav className="hidden gap-5 md:flex md:flex-row">
