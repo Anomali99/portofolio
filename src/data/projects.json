@@ -90,7 +90,7 @@
       "Untuk menyajikan data secara dinamis, Zen Garden memanfaatkan teknologi WebSocket yang memungkinkan pembaruan sensor langsung ke dasbor tanpa jeda. Platform ini juga dilengkapi fitur-fitur pendukung seperti notifikasi push melalui Firebase untuk peringatan penting, serta sistem jadwal penanaman dan pelacakan tugas untuk membantu pengguna mengelola aktivitas berkebun secara terstruktur. Dengan antarmuka berbasis React yang responsif dan ramah pengguna, Zen Garden memastikan pengalaman pengguna yang optimal di berbagai perangkat, baik desktop maupun ponsel."
     ],
     "year": "2025",
-    "thumbnail": "/images/projects/zen-garden/thumbnail.webp",
+    "thumbnail": "/images/projects/zen-garden/thumbnail.jpg",
     "github_url": "https://github.com/Zen-Garden-SAD",
     "framework": ["React", "Flask", "Kotlin Android", "Arduino Core"],
     "type": ["Frontend", "Backend", "Android", "Arduino"],
