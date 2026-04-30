@@ -22,7 +22,7 @@ export default async function handler(req, res) {
       : "https://www.anomali99.my.id/images/me/og-image.png"
 
   try {
-    const filePath = path.resolve("./dist/index.html")
+    const filePath = path.join(process.cwd(), "dist", "index.html")
     let html = fs.readFileSync(filePath, "utf8")
 
     html = html
