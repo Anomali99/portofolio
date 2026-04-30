@@ -6,7 +6,7 @@
   },
   "rewrites": [
     {
-      "source": "/projects/:slug",
+      "source": "/project/:slug",
       "destination": "/api/og-injector?slug=:slug"
     },
     {
