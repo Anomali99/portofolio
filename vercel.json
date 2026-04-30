@@ -1,6 +1,10 @@
 {
   "rewrites": [
     {
+      "source": "/projects/:slug",
+      "destination": "/api/og-injector?slug=:slug"
+    },
+    {
       "source": "/(.*)",
       "destination": "/index.html"
     }
