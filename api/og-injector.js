@@ -22,8 +22,18 @@ export default async function handler(req, res) {
       : "https://www.anomali99.my.id/images/me/og-image.png"
 
   try {
-    const filePath = path.join(process.cwd(), "public", "index.html")
-    let html = fs.readFileSync(filePath, "utf8")
+    const filePath = path.join(process.cwd(), "index.html")
+
+    if (!fs.existsSync(filePath)) {
+      const fallbackPath = path.join(process.cwd(), "dist", "index.html")
+      if (fs.existsSync(fallbackPath)) {
+        var html = fs.readFileSync(fallbackPath, "utf8")
+      } else {
+        throw new Error("index.html tidak ditemukan di " + filePath)
+      }
+    } else {
+      var html = fs.readFileSync(filePath, "utf8")
+    }
 
     html = html
       .replace(/<title>.*?<\/title>/g, `<title>${title}</title>`)
