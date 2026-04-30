@@ -1,73 +1,60 @@
 import fs from "fs"
 import path from "path"
-
+// Langsung import JSON agar dibundel oleh Vercel
 import projectsData from "../src/data/projects.json"
 
 export default async function handler(req, res) {
-  const { slug } = req.query
-
-  const project = projectsData.find((p) => p.slug === slug)
-
-  const title = project
-    ? `${project.title} | Anomali99`
-    : "Anomali99 Portofolio"
-
-  const desc = project
-    ? project.description[0]
-    : "Portofolio profesional Nur Fatiq, Full Stack Developer yang berfokus pada pengembangan aplikasi web, mobile, dan solusi IoT."
-
-  const image =
-    project && project.thumbnail
-      ? `https://www.anomali99.my.id${project.thumbnail}`
-      : "https://www.anomali99.my.id/images/me/og-image.png"
-
   try {
-    const filePath = path.join(process.cwd(), "index.html")
+    const { slug } = req.query
 
-    if (!fs.existsSync(filePath)) {
-      const fallbackPath = path.join(process.cwd(), "dist", "index.html")
-      if (fs.existsSync(fallbackPath)) {
-        var html = fs.readFileSync(fallbackPath, "utf8")
-      } else {
-        throw new Error("index.html tidak ditemukan di " + filePath)
+    const project = projectsData.find((p) => p.slug === slug)
+
+    const title = project
+      ? `${project.title} | Anomali99`
+      : "Anomali99 Portofolio"
+    const desc = project
+      ? project.description[0]
+      : "Software Engineer & IoT Enthusiast"
+    const image =
+      project && project.thumbnail
+        ? `https://www.anomali99.my.id${project.thumbnail}`
+        : "https://www.anomali99.my.id/og-image.png"
+
+    const indexPath = path.join(process.cwd(), "dist", "index.html")
+    if (!fs.existsSync(indexPath)) {
+      const rootPath = path.join(process.cwd(), "index.html")
+      if (!fs.existsSync(rootPath)) {
+        throw new Error("index.html tidak ditemukan di jalur manapun")
       }
+      var html = fs.readFileSync(rootPath, "utf8")
     } else {
-      var html = fs.readFileSync(filePath, "utf8")
+      var html = fs.readFileSync(indexPath, "utf8")
     }
 
-    html = html
-      .replace(/<title>.*?<\/title>/g, `<title>${title}</title>`)
+    const finalHtml = html
+      .replace(/<title>.*?<\/title>/, `<title>${title}</title>`)
       .replace(
-        /<meta property="og:title" content=".*?"\s*\/?>/g,
+        /<meta property="og:title" content=".*?"\s*\/?>/,
         `<meta property="og:title" content="${title}" />`,
       )
       .replace(
-        /<meta property="og:description" content=".*?"\s*\/?>/g,
+        /<meta property="og:description" content=".*?"\s*\/?>/,
         `<meta property="og:description" content="${desc}" />`,
       )
       .replace(
-        /<meta property="og:image" content=".*?"\s*\/?>/g,
+        /<meta property="og:image" content=".*?"\s*\/?>/,
         `<meta property="og:image" content="${image}" />`,
       )
-      // Tambahkan juga untuk Twitter Card
       .replace(
-        /<meta property="twitter:title" content=".*?"\s*\/?>/g,
-        `<meta property="twitter:title" content="${title}" />`,
-      )
-      .replace(
-        /<meta property="twitter:description" content=".*?"\s*\/?>/g,
-        `<meta property="twitter:description" content="${desc}" />`,
-      )
-      .replace(
-        /<meta property="twitter:image" content=".*?"\s*\/?>/g,
+        /<meta property="twitter:image" content=".*?"\s*\/?>/,
         `<meta property="twitter:image" content="${image}" />`,
       )
 
     res.setHeader("Content-Type", "text/html")
-    res.setHeader("Cache-Control", "s-maxage=86400, stale-while-revalidate")
-    res.status(200).send(html)
+    res.setHeader("Cache-Control", "s-maxage=3600, stale-while-revalidate")
+    return res.status(200).send(finalHtml)
   } catch (error) {
-    console.error("Error reading index.html:", error)
-    res.status(500).send("Internal Server Error")
+    console.error("OG Injector Error:", error.message)
+    return res.status(500).send(`Server Error: ${error.message}`)
   }
 }

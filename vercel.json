@@ -1,7 +1,12 @@
 {
+  "functions": {
+    "api/og-injector.js": {
+      "includeFiles": "dist/index.html"
+    }
+  },
   "rewrites": [
     {
-      "source": "/project/:slug",
+      "source": "/projects/:slug",
       "destination": "/api/og-injector?slug=:slug"
     },
     {
