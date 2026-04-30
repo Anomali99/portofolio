@@ -19,7 +19,7 @@ export default async function handler(req, res) {
   const image =
     project && project.thumbnail
       ? `https://www.anomali99.my.id${project.thumbnail}`
-      : "https://www.anomali99.my.id/og-image.png"
+      : "https://www.anomali99.my.id/images/me/og-image.png"
 
   try {
     const filePath = path.resolve("./dist/index.html")
