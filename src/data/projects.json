@@ -202,7 +202,7 @@
     "title": "Trophy Vision",
     "slug": "trophy-vision",
     "description": [
-      "Aplikasi Android ini dikembangkan untuk mendeteksi dan mengidentifikasi objek piala secara real-time menggunakan kamera ponsel. Proyek ini merupakan sebuah eksplorasi dalam penerapan computer vision, di mana kecerdasan buatan (AI) diintegrasikan untuk mengenali sebuah objek spesifik dari input visual secara langsung dan akurat.",
+      "Aplikasi Android ini dikembangkan untuk mendeteksi dan mengidentifikasi objek piala menggunakan kamera ponsel. Proyek ini merupakan sebuah eksplorasi dalam penerapan computer vision, di mana kecerdasan buatan (AI) diintegrasikan untuk mengenali sebuah objek spesifik dari input visual secara langsung dan akurat.",
       "Secara teknis, aplikasi ini mengombinasikan dua model deep learning dalam arsitektur dua tahap (two-stage). Model YOLOv8 bertugas untuk menemukan dan melokalisasi posisi piala dalam gambar (deteksi objek). Setelah terdeteksi, objek tersebut kemudian dianalisis lebih lanjut oleh model ResNet18 untuk proses klasifikasi dan identifikasi akhir."
     ],
     "year": "2024",

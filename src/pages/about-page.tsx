@@ -107,7 +107,8 @@ const AboutPage: React.FC = () => {
                     ;(e.target as HTMLImageElement).src =
                       "https://placehold.co/400x400/2a2a2a/7c3aed?text=Gallery+Image"
                   }}
-                  className="aspect-square w-full object-cover transition-transform duration-500 hover:scale-110 hover:grayscale-0 md:grayscale"
+                  onClick={() => setSelectedImage(`/images/me/gallery/${src}`)}
+                  className="aspect-square w-full cursor-pointer object-cover transition-transform duration-500 hover:scale-110 hover:grayscale-0 md:grayscale"
                 />
               </div>
             ))}

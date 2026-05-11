@@ -1,18 +1,22 @@
 {
   "name": "Nur Fatiq",
   "title": "Full Stack Developer",
-  "short_description": "Mahasiswa Sistem Informasi dengan minat besar pada pengembangan full-stack. Antusias dalam belajar dan membangun aplikasi web maupun mobile dari hulu ke hilir.",
+  "short_description": "Lulusan Sistem Informasi dengan spesialisasi pada Full Stack Development dan Internet of Things (IoT). Antusias dalam merancang dan membangun solusi teknologi yang efisien, mulai dari antarmuka web dan mobile hingga integrasi perangkat keras.",
   "description": [
-    "Perkenalkan, saya Nur Fatiq. Saya adalah seorang pengembang perangkat lunak dengan keinginan kuat terhadap teknologi dan pemecahan masalah melalui kode. Saat ini saya juga seorang mahasiswa Sistem Informasi di UIN Sunan Ampel Surabaya. Perjalanan saya di dunia programming dimulai dari rasa penasaran, yang mendorong saya untuk secara proaktif belajar dan membangun berbagai proyek hobi bahkan sebelum memulai perkuliahan formal.",
-    "Melalui proyek-proyek tersebut, saya telah membangun pengalaman dalam siklus pengembangan end-to-end. Saya menikmati proses merancang arsitektur backend, membangun API, hingga mengelola database. Di sisi lain, saya juga bersemangat dalam menciptakan antarmuka pengguna yang bersih, responsif, dan fungsional, baik untuk platform web maupun mobile. Kemampuan untuk bekerja di kedua sisi ini membuat saya dapat melihat gambaran besar sebuah proyek secara holistik.",
-    "Saya selalu mencari kesempatan untuk belajar hal-hal baru, berkolaborasi dalam proyek-proyek yang menantang, dan menerapkan pengetahuan saya untuk menciptakan solusi digital yang bermanfaat. Saya percaya bahwa kombinasi antara pendidikan formal dan rasa ingin tahu yang diwujudkan dalam proyek pribadi adalah kunci untuk menjadi seorang developer yang kompeten dan inovatif."
+    "Halo! Saya Nur Fatiq, seorang Full Stack Developer yang memiliki ketertarikan mendalam pada eksplorasi teknologi, khususnya irisan antara rekayasa perangkat lunak dan Internet of Things (IoT). Perjalanan saya di dunia teknologi dimulai dari ketertarikan untuk memahami bagaimana baris kode dapat mengendalikan sistem di dunia nyata.",
+    "Selama masa studi di Sistem Informasi UIN Sunan Ampel Surabaya, saya terbiasa membangun arsitektur sistem dari hulu ke hilir. Eksplorasi saya mencakup pembuatan antarmuka pengguna yang responsif di mobile dan web, perancangan logika backend dengan workflow automation, hingga optimasi server lokal menggunakan distribusi Linux pada perangkat seperti Set-Top Box (STB). Saya memandang setiap proyek—baik itu sistem pemantauan tanaman, aplikasi produktivitas, maupun integrasi database—sebagai wadah untuk memecahkan masalah kompleks dengan cara yang paling efektif. Saat ini, saya fokus untuk terus mengembangkan keahlian teknis dan siap berkontribusi penuh dalam tim yang dinamis."
   ],
   "email": "fatiqnur@gmail.com",
   "github": "https://github.com/Anomali99",
   "linkedin": "https://www.linkedin.com/in/nur-fatiq-b26452315/",
   "facebook": "https://www.facebook.com/profile.php?id=100007317105187",
   "instagram": "https://www.instagram.com/fatiq5127/",
-  "gallery": ["about-img2.webp", "about-img3.webp", "about-img4.webp"],
+  "gallery": [
+    "about-img2.webp",
+    "about-img3.webp",
+    "about-img4.webp",
+    "about-img5.webp"
+  ],
   "certifications": [
     {
       "name": "System Analyst - Software Development",
@@ -20,6 +24,13 @@
       "year": "2025",
       "description": "Sertifikat Kompetensi pada bidang Software Development dengan Kualifikasi/Kompetensi sebagai System Analyst. Diterbitkan oleh Lembaga Sertifikasi Profesi TIK Indonesia.",
       "image": "bnsp-system-analyst.jpg"
+    },
+    {
+      "name": "Certified Developer",
+      "issuer": "Alibaba Cloud",
+      "year": "2026",
+      "description": "Sertifikat Alibaba Cloud Certification atas nama Nur Fatiq karena telah berhasil mengembangkan aplikasi dengan layanan Alibaba Cloud. Berlaku hingga 12 Juli 2026 dengan Nomor Seri ACCD0119700100012041.",
+      "image": "alibaba-cloud-developer.png"
     },
     {
       "name": "Frontend Web Developer Apprentice",
