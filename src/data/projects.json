@@ -92,6 +92,7 @@
     "year": "2025",
     "thumbnail": "/images/projects/zen-garden/thumbnail.webp",
     "github_url": "https://github.com/Zen-Garden-SAD",
+    "demo_url": "https://zengarden.anomali99.my.id",
     "framework": ["React", "Flask", "Kotlin Android", "Arduino Core"],
     "type": ["Frontend", "Backend", "Android", "Arduino"],
     "category": "Coursework",
