@@ -7,6 +7,7 @@ import {
 import { TanStackRouterDevtools } from "@tanstack/react-router-devtools"
 import {
   aboutRoute,
+  documentDetailRoute,
   homeRoute,
   projectDetailRoute,
   projectsRoute,
@@ -27,6 +28,7 @@ const router = createRouter({
     aboutRoute,
     projectsRoute,
     projectDetailRoute,
+    documentDetailRoute,
   ]),
   context: {},
   defaultPreload: "intent",

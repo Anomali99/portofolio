@@ -53,6 +53,16 @@ const ProjectDetailPage: React.FC = () => {
     return () => observer.disconnect()
   }, [project])
 
+  const getDynamicLink = (url: string): string => {
+    const isExternal = /^https?:\/\//i.test(url)
+
+    if (isExternal) {
+      return url
+    }
+
+    return `/project/${slug}/document/${url}`
+  }
+
   if (!project) {
     return (
       <Layout>
@@ -174,10 +184,10 @@ const ProjectDetailPage: React.FC = () => {
                 Dokumen Pendukung
               </h3>
               <div className="flex flex-wrap gap-4">
-                {project.documents.map((doc: any, i: number) => (
+                {project.documents.map((doc, i: number) => (
                   <a
                     key={i}
-                    href={doc.url}
+                    href={getDynamicLink(doc.url)}
                     target="_blank"
                     rel="noreferrer"
                     className="scroll-reveal-scale flex w-full items-center gap-3 rounded-xl border border-blue-500/30 bg-blue-500/5 px-5 py-4 transition-all hover:-translate-y-1 hover:bg-blue-500/10 hover:shadow-md hover:shadow-blue-500/10 sm:w-auto"

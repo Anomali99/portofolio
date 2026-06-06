@@ -14,6 +14,12 @@
     "category": "Coursework",
     "hight_light": true,
     "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
+    "documents": [
+      {
+        "title": "Laporan Skripsi",
+        "url": "laporan-skripsi.pdf"
+      }
+    ],
     "sub_project": [
       {
         "title": "Android",
@@ -101,19 +107,19 @@
     "documents": [
       {
         "title": "Software Requirements Specification (SRS)",
-        "url": "https://drive.google.com/file/d/1n7CniPUFYLVfntCaHFBEeDw3YnNY1bv_/view?usp=sharing"
+        "url": "software-requirements-specification-zen-garden.pdf"
       },
       {
         "title": "Report Development (RD)",
-        "url": "https://drive.google.com/file/d/1GWJKPcPReE1Eg4zaH-jLogfkQVanLRzO/view?usp=sharing"
+        "url": "report-development-zen-garden.pdf"
       },
       {
         "title": "Laporan Akhir Zen Garden",
-        "url": "https://drive.google.com/file/d/1ZHE3EZUzR7uCqOV-35wH-79-HfMwVjkV/view?usp=sharing"
+        "url": "laporan-akhir-zen-garden.pdf"
       },
       {
         "title": "Poster Zen Garden",
-        "url": "https://drive.google.com/file/d/1mgkflZhNGkczJ5hWaVEy_UMjG6_r4IjC/view?usp=sharing"
+        "url": "poster-zen-garden.pdf"
       }
     ],
     "author": [
