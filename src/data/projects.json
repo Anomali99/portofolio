@@ -1,5 +1,27 @@
 [
   {
+    "title": "FinTale",
+    "slug": "fintale",
+    "description": [
+      "Aplikasi ini berawal dari kebutuhan pribadi untuk melacak arus kas, menemukan titik overbudget, dan mengalokasikan dana demi masa depan yang lebih terjamin. Di sela pemikiran itu, saya menyadari bahwa manajemen keuangan seharusnya tidak membosankan. Jika hidup adalah sebuah game, maka bekerja adalah proses grinding untuk memperbesar stats kita. FinTale hadir untuk mengubah beban pengelolaan uang menjadi mekanisme RPG yang memuaskan dan terstruktur dengan menggabungkan prinsip budgeting cerdas dan elemen gamifikasi.",
+      "Melalui FinTale, aktivitas mencatat keuangan berubah menjadi petualangan di mana pengguna bisa mendapatkan Experience Points (XP), naik level, dan meraih gelar dari Novice Saver hingga Financial Master. Sistem Smart Allocation secara dinamis membagi dana (seperti Biaya Hidup, Hutang, Dana Darurat, dan Investasi) yang persentasenya beradaptasi dengan level pengguna. Selain itu, aplikasi ini dilengkapi dengan fitur manajemen anggaran harian, pencatatan tagihan rutin layaknya sebuah Quest, dan analitik visual menggunakan Donut Chart.",
+      "Dari sisi teknis dan keamanan, FinTale dibangun menggunakan framework Flutter dan mengusung konsep 100% Offline-First untuk menjaga privasi pengguna. Aplikasi ini tidak menggunakan API pihak ketigam kecuali API Google Drive, seluruh data keuangan disimpan secara lokal di dalam perangkat menggunakan SQLite. Sebagai solusi pencadangan, aplikasi menyediakan fitur Manual Cloud Sync yang terhubung langsung ke Google Drive pribadi pengguna."
+    ],
+    "year": "2026",
+    "thumbnail": "/images/projects/fintale/thumbnail.webp",
+    "github_url": "https://github.com/Anomali99/FinTale",
+    "demo_url": "https://fintale.anomali99.my.id",
+    "framework": ["Flutter"],
+    "type": ["Android"],
+    "category": "Hobby",
+    "hight_light": true,
+    "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
+    "preview": [
+      "/images/projects/fintale/android/1.webp",
+      "/images/projects/fintale/android/2.webp"
+    ]
+  },
+  {
     "title": "MyHydroponic",
     "slug": "myhydroponic",
     "description": [
@@ -81,7 +103,7 @@
     "framework": ["Kotlin Android"],
     "type": ["Android"],
     "category": "Hobby",
-    "hight_light": true,
+    "hight_light": false,
     "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": [
       "/images/projects/tikrartime/android/1.webp",
@@ -287,7 +309,7 @@
     "framework": ["React"],
     "type": ["Frontend"],
     "category": "Hobby",
-    "hight_light": true,
+    "hight_light": false,
     "author": [{ "name": "Nur Fatiq (saya)", "url": "/" }],
     "preview": [
       "/images/projects/flix-box/frontend/1.webp",
